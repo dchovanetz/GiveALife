@@ -1,0 +1,29 @@
+#mission{
+    justify-content: center;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.homeImage{
+    position: relative;
+    height: 450px;
+    width: 100%;
+    z-index: -1;
+}
+
+#bodyText{
+    position: relative;
+    
+}
+
+.centered{
+    justify-content: center;
+    position: absolute;
+    color: whitesmoke;
+    font-size: 25px;
+    z-index: 1;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    font-family: 'Libre Baskerville', serif;
+}
