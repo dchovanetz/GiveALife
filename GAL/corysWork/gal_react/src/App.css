@@ -63,3 +63,28 @@
   color: black;
 }
 
+#aboutCard{
+  background-color: darkcyan;
+}
+
+#aboutText{
+  font-size: 30px;
+  color: white;
+}
+
+#filler{
+  width: 30px;
+}
+
+#whyCard{
+  border: none;
+}
+
+
+.whyTitle{
+  font-size: 30px;
+}
+
+.whyText{
+  font-size: 20px;
+}
