@@ -11,7 +11,8 @@ function BodyCard(){
     <Card.Body>
 
       <Card.Text id='aboutText'>
-      The goal of GIVE YOUR LIFE, DON'T TAKE IT is to expand the suicide prevention conversation to provide opportunities for <b>active giving</b> as a pathway to suicide prevention for men, women, teens, vets, and seniors who are experiencing an intense sense of loss, being overwhelmed, shame, and disconnection
+      “Just this slight glimpse into a <b>possible alternative to the dilemma of wanting to live but not wanting to live my life</b> as it was gave me hope. I started imagining a real place where people, whose suicide ideation was prompted by loss of meaning, could temporarily donate their lives in a way that rapidly revealed the value of their existence.”
+      <p id='pam'>Give Your Life Founder, Pam Boyd</p>
       </Card.Text>
     </Card.Body>
     
