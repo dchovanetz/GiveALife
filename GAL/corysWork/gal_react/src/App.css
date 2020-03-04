@@ -1,0 +1,126 @@
+#background{
+  position: absolute;
+  z-index: -1;
+  background-color: #4F3A65;
+}
+
+.title{
+  position: relative;
+  bottom: 180px;
+  font-size: 40px;
+  color: black;
+}
+
+.caption{
+  position: relative;
+  bottom: 120px;
+  font-size: 30px;
+  color: black;
+}
+
+.quote{
+  position: relative;
+  bottom: 120px;
+  font-size: 40px;
+  color: black;
+}
+
+.author{
+  position: relative;
+  bottom: 130px;
+  left: 280px;
+  font-size: 25px;
+  color: black;
+}
+
+#thirdText{
+  position: relative;
+  font-size: 40px;
+  bottom: 130px;
+  color: black;
+}
+
+#thirdSubText{
+  position: relative;
+  font-size: 30px;
+  bottom: 90px;
+  color: black;
+}
+
+#fourthText{
+  position: relative;
+  font-size: 40px;
+  bottom: 100px;
+  color: black;
+}
+
+#fourthSubText{
+  position: relative;
+  bottom: 50px;
+  font-size: 24px;
+  color: black;
+}
+
+#fourthAuthor{
+  position: relative;
+  bottom: 45px;
+  left: 250px;
+  font-size: 18px;
+  color: black;
+}
+
+#aboutCard{
+  background-color: darkcyan;
+}
+
+#aboutText{
+  font-size: 30px;
+  color: white;
+}
+
+#filler{
+  width: 30px;
+}
+
+#whyCard{
+  border: none;
+}
+
+
+.whyTitle{
+  font-size: 30px;
+}
+
+.whyText{
+  font-size: 20px;
+}
+
+#pam{
+  position: relative;
+  top: 1.5rem;
+  left: 8rem;
+}
+
+#NavB{
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  right: 1rem;
+  z-index: 1;
+  width: 97%;
+  justify-content: center;
+}
+
+#missTitle{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+#missText{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: black;
+}
