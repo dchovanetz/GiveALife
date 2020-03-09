@@ -1,28 +1,59 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body
+{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+h3, h4, p, b{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  color: #95ADBE;
+}
+
 #background{
+  width: 100%;
   position: absolute;
   z-index: -1;
-  background-color: #4F3A65;
+  background-color:white;
 }
 
 .title{
   position: relative;
   bottom: 180px;
   font-size: 40px;
-  color: black;
+  color: white;
 }
 
 .caption{
   position: relative;
   bottom: 120px;
   font-size: 30px;
-  color: black;
+  color: white;
 }
+
+
 
 .quote{
   position: relative;
   bottom: 120px;
   font-size: 40px;
-  color: black;
+  color: white;
 }
 
 .author{
@@ -30,35 +61,35 @@
   bottom: 130px;
   left: 280px;
   font-size: 25px;
-  color: black;
+  color: white;
 }
 
 #thirdText{
   position: relative;
   font-size: 40px;
   bottom: 130px;
-  color: black;
+  color: #574F70;
 }
 
 #thirdSubText{
   position: relative;
   font-size: 30px;
   bottom: 90px;
-  color: black;
+  color: #574F70;
 }
 
 #fourthText{
   position: relative;
   font-size: 40px;
   bottom: 100px;
-  color: black;
+  color: white;
 }
 
 #fourthSubText{
   position: relative;
   bottom: 50px;
   font-size: 24px;
-  color: black;
+  color: white;
 }
 
 #fourthAuthor{
@@ -66,21 +97,31 @@
   bottom: 45px;
   left: 250px;
   font-size: 18px;
-  color: black;
-}
-
-#aboutCard{
-  background-color: darkcyan;
-}
-
-#aboutText{
-  font-size: 30px;
   color: white;
 }
 
-#filler{
-  width: 30px;
+#midSec{
+  
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
 }
+
+#aboutCard{
+  background-color: #574F70;
+  border-radius: 1rem;
+}
+
+#aboutText{
+  font-size: 29px;
+  color: white;
+}
+
+#emph{
+  font-size: 37px;
+}
+
 
 #whyCard{
   border: none;
@@ -88,14 +129,22 @@
 
 
 .whyTitle{
-  font-size: 30px;
+  font-size: 35px;
 }
 
 .whyText{
-  font-size: 20px;
+  position: relative;
+  left: 1rem;
+  font-size: 25px;
+}
+
+#symptom{
+  position: relative;
+  left: 3rem;
 }
 
 #pam{
+  font-size: 1.1rem;
   position: relative;
   top: 1.5rem;
   left: 8rem;
@@ -109,6 +158,7 @@
   z-index: 1;
   width: 97%;
   justify-content: center;
+  border-radius: 1rem;
 }
 
 #missTitle{
@@ -123,4 +173,8 @@
   text-align: center;
   font-size: 40px;
   color: black;
+}
+
+.darken{
+  filter: sepia(25%);
 }

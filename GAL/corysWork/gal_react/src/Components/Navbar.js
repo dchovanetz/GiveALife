@@ -5,9 +5,9 @@ import '../App.css';
 
 function Navb(){
     return(
-        <div id='NavB'>
+        <div >
 
-<Navbar bg="dark" variant= 'dark' expand="lg" >
+<Navbar bg="dark" variant= 'dark' expand="lg" id='NavB' >
   <Navbar.Brand href="#home">Logo</Navbar.Brand>
   <Navbar.Toggle aria-controls="basic-navbar-nav" />
   <Navbar.Collapse id="basic-navbar-nav">
@@ -21,7 +21,7 @@ function Navb(){
     </Nav>
     <Form inline>
       {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
-      <Button variant="info">Get Help</Button>
+      <Button variant="info">Find Help</Button>
     </Form>
   </Navbar.Collapse>
 </Navbar>

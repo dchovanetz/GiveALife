@@ -2,9 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from 'react-bootstrap';
 import first from '../images/firstheart.jpg';
-import second from '../images/seconddandy.jpg';
-import third from '../images/sunflower.jpg';
-import fourth from '../images/water-lily.jpg';
+import second from '../images/sunflower.jpg';
+import third from '../images/yellow-background.jpg';
+import fourth from '../images/water-lily2.jpg';
 import fifth from '../images/lastspace.jpg';
 import '../App.css';
 
@@ -17,7 +17,8 @@ function Slider() {
   <Carousel>
   <Carousel.Item >
     <img
-      height = {550}
+      class='resize'
+      height = {575}
       className="d-block w-100"
       src={first}
       alt="Heart"
@@ -31,7 +32,8 @@ function Slider() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      height = {550}
+      class='resize'
+      height = {575}
       className="d-block w-100"
       src={second}
       alt="Dandelion"
@@ -44,7 +46,8 @@ function Slider() {
   </Carousel.Item>
   <Carousel.Item>
     <img
-      height = {550}
+      class='resize'
+      height = {575}
       className="d-block w-100"
       src={third}
       alt="Third slide"
@@ -61,7 +64,8 @@ function Slider() {
 
 <Carousel.Item>
     <img
-      height = {550}
+      class='resize'
+      height = {575}
       className="d-block w-100"
       src={fourth}
       alt="First slide"
@@ -75,8 +79,9 @@ function Slider() {
 
   <Carousel.Item>
     <img
-      height = {550}
-      className="d-block w-100"
+      class='resize'
+      height = {575}
+      className="d-block w-100 img-responsive"
       src={fifth}
       alt="First slide"
     />
