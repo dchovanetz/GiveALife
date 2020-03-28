@@ -40,7 +40,7 @@ function Slider() {
     />
 
     <Carousel.Caption>
-      <h3 class='quote'>“If you want to lift yourself up, lift up<br/>someone else”.</h3>
+      <h3 class='quote' >“If you want to lift yourself up, lift up<br/>someone else”.</h3>
       <p class='author'> - Booker T. Washington</p>
     </Carousel.Caption>
   </Carousel.Item>

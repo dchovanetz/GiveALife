@@ -11,7 +11,7 @@ html,body
     overflow-x: hidden; 
 }
 
-h3, h4, p, b{
+h1, h2, h3, h4, p, b{
   font-family: 'Source Sans Pro', sans-serif;
 }
 
@@ -26,12 +26,6 @@ hr {
   color: #95ADBE;
 }
 
-#background{
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-  background-color:white;
-}
 
 .title{
   position: relative;
@@ -153,8 +147,7 @@ hr {
 #NavB{
   position: absolute;
   top: 1rem;
-  left: 1rem;
-  right: 1rem;
+  left: 1.2em;
   z-index: 1;
   width: 97%;
   justify-content: center;
@@ -175,6 +168,63 @@ hr {
   color: black;
 }
 
-.darken{
-  filter: sepia(25%);
+#aboutQuote{
+  position: relative;
+  top: 12rem;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#aboutAuthor{
+  position: relative;
+  left: 50rem;
+  top: 14rem;
+  font-size: 30px;
+  color: white;
+}
+
+#fBody{
+  position: relative;
+  left: 12rem;
+  width: 70%;
+  text-align: center;
+}
+
+#foundCard{
+  border: none;
+}
+
+.fHeader{
+  color: #574F70;
+}
+
+.fText{
+  font-size: 22px;
+}
+
+#pamCard{
+  position: relative;
+  border-radius: 1rem;
+  left: 3.2rem;
+  background-color: #dff0ea;
+  height: 500px;
+  width: 92%;
+}
+
+#pamPic{
+  position: relative;
+  top: 35px;
+  left: 50px;
+  padding-bottom: 10px;
+  height: 440px;
+  width: 320px;
+}
+
+#pamInfo{
+  position: relative;
+  font-size: 21px;
+  width: 50%;
+  left: 30rem;
+  bottom: 25rem;
 }
