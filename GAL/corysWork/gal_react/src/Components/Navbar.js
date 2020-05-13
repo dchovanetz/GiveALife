@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import Home from '../Pages/Home.js'
 import AboutUs from '../Pages/AboutUs.js'
+import GetInvolved from '../Pages/GetInvolved.js'
+import Community from '../Pages/Community.js'
+import Donate from '../Pages/Donate.js'
 import '../App.css';
 
 function Navb(){
@@ -22,9 +25,9 @@ function Navb(){
     <Nav className="mr-auto">
       <Nav.Link as={Link} to="/">Home</Nav.Link>
       <Nav.Link as={Link} to='AboutUs'>About Us</Nav.Link>
-      <Nav.Link >Get Involved</Nav.Link>
-      <Nav.Link >Community</Nav.Link>
-      <Nav.Link >Donate</Nav.Link>
+      <Nav.Link as={Link} to='GetInvolved'>Get Involved</Nav.Link>
+      <Nav.Link as={Link} to='Community' >Community</Nav.Link>
+      <Nav.Link as={Link} to='Donate' >Donate</Nav.Link>
     </Nav>
     <Form inline>
       {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
@@ -43,7 +46,20 @@ function Navb(){
     <AboutUs />
   </Route>
 
+  <Route path='/GetInvolved'>
+    <GetInvolved/>
+  </Route>
+
+  <Route path='/Community'>
+    <Community/>
+  </Route>
+
+  <Route path='/Donate'>
+    <Donate/>
+  </Route>
+
 </Switch>
+
 </Router>
 </>
     )
