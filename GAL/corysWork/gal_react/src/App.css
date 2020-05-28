@@ -3,9 +3,15 @@
   padding: 0;
 }
 
+.BlockFiller{
+  width: 100%;
+  height: 5rem;
+  background-color: #343a40;
+}
+
 html,body
 {
-    width: 100%;
+    /* width: 100%; */
     margin: 0px;
     padding: 0px;
     overflow-x: hidden; 
@@ -165,7 +171,7 @@ hr {
   position: relative;
   text-align: center;
   font-size: 40px;
-  color: black;
+  color: rgb(197, 185, 185);
 }
 
 #aboutQuote{
@@ -227,4 +233,74 @@ hr {
   width: 50%;
   left: 30rem;
   bottom: 25rem;
+}
+
+#GetBody{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.GetText{
+  font-size: 30px;
+}
+
+#GetHeader{
+  text-align: center;
+}
+
+#WaysGet{
+  position: absolute;
+  border-radius: 1rem;
+  left: 3rem;
+  right: 3rem;
+  font-size: 30px;
+  text-align: center;
+  background-color: #95ADBE;
+}
+
+
+#EventImg{
+ position: relative;
+ width: 22rem;
+ height: 19rem;
+ left: 3rem;
+}
+
+
+#PartnerImg{
+ position: relative;
+ width: 22rem;
+ height: 19rem;
+ left: 6.5rem;
+}
+
+
+#DonateImg{
+ position: relative;
+ width: 22rem;
+ height: 19rem;
+ left: 10rem;
+}
+
+#EventText{
+  position: absolute;
+  left: 8rem;
+  width: 15rem;
+  font-size: 30px;
+}
+
+
+#PartnerText{
+  position: absolute;
+  left: 33rem;
+  width: 15rem;
+  font-size: 30px;
+}
+
+
+#DonateText{
+  position: absolute;
+  right: 4rem;
+  width: 15rem;
+  font-size: 30px;
 }
