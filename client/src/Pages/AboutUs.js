@@ -3,9 +3,9 @@ import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
 import about from '../images/about-us.jpg';
-import Founder from '../Components/Founder';
-import Bio from '../Components/Bio'
-import Mission from '../Components/Mission'
+import Founder from '../components/Founder';
+import Bio from '../components/Bio'
+import Mission from '../components/Mission'
 
 function AboutUs() {
     return(

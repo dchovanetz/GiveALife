@@ -1,8 +1,8 @@
 import React from 'react';
 import '../App.css';
-import Slider from '../Components/Carousel.js';
-import BodyCard from '../Components/BodyCard.js';
-import Mission from '../Components/Mission'
+import Slider from '../components/Carousel.js';
+import BodyCard from '../components/BodyCard.js';
+import Mission from '../components/Mission'
 
 
 function Home() {
