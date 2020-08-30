@@ -1,15 +1,15 @@
 import React from 'react';
 import './App.css';
-import Navbar from './components/Navbar';
+import Navbar from './components/layout/Navbar';
 
 
 
 
 function App() {
   return (
-  <>
+ 
     <Navbar/>  
-  </>
+  
   );
 }
 

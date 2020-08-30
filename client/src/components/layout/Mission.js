@@ -1,8 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
-import '../App.css';
-import miss from '../images/missionstatement.jpg';
+import '../../App.css';
+import miss from '../../assets/missionstatement.jpg';
 
 function Mission(){
     return(

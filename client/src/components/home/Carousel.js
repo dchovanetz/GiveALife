@@ -1,12 +1,12 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from 'react-bootstrap';
-import first from '../images/firstheart.jpg';
-import second from '../images/sunflower.jpg';
-import third from '../images/yellow-background.jpg';
-import fourth from '../images/water-lily2.jpg';
-import fifth from '../images/lastspace.jpg';
-import '../App.css';
+import first from '../../assets/firstheart.jpg';
+import second from '../../assets/sunflower.jpg';
+import third from '../../assets/yellow-background.jpg';
+import fourth from '../../assets/water-lily2.jpg';
+import fifth from '../../assets/lastspace.jpg';
+import '../../App.css';
 
 //hello
 //hello2

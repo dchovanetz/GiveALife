@@ -7,12 +7,12 @@ import {
   BrowserRouter as Router,
   Switch 
 } from "react-router-dom";
-import Home from '../Pages/Home.js'
-import AboutUs from '../Pages/AboutUs.js'
-import GetInvolved from '../Pages/GetInvolved.js'
-import Community from '../Pages/Community.js'
-import Donate from '../Pages/Donate.js'
-import '../App.css';
+import Home from "../home/Home"
+import AboutUs from '../about-us/AboutUs'
+import GetInvolved from '../get-involved/GetInvolved'
+import Community from '../community/Community'
+import Donate from '../donate/Donate'
+import '../../App.css';
 
 function Navb(){
     return(

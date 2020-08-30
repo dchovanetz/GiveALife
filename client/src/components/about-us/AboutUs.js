@@ -1,11 +1,11 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
-import about from '../images/about-us.jpg';
-import Founder from '../components/Founder';
-import Bio from '../components/Bio'
-import Mission from '../components/Mission'
+import about from '../../assets/about-us.jpg';
+import Founder from './Founder';
+import Bio from './Bio'
+import Mission from '../layout/Mission'
 
 function AboutUs() {
     return(

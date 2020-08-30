@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card, CardDeck, Row, Col} from 'react-bootstrap';
-import '../App.css';
+import '../../App.css';
 
 function BodyCard(){
     return(

@@ -1,7 +1,7 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
-import '../App.css';
+import '../../App.css';
 
 function Founder(){
     return(

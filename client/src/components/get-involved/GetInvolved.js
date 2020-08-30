@@ -1,11 +1,11 @@
 import React from 'react';
-import '../App.css';
+import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
-import Mission from '../components/Mission'
-import Donate from '../images/GIDonate.jpg'
-import Partner from '../images/GIPartner.jpg'
-import Event from '../images/GIEvent.jpg'
+import Mission from '../layout/Mission'
+import Donate from '../../assets/GIDonate.jpg'
+import Partner from '../../assets/GIPartner.jpg'
+import Event from '../../assets/GIEvent.jpg'
 
 function GetInvolved() {
     return(
