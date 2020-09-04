@@ -26,16 +26,17 @@ export default function ContactUs() {
             <Form className="contact-form" onSubmit={sendEmail}>
 
                 <Form.Group controlId="formBasicEmail">
-                    <Form.Label>Name</Form.Label>
-                    <Form.Control type="text" placeholder="Enter Full name" name="name" />
                     <Form.Text className="text-muted">
-                    Take the step
+                    Please fill in all inputs with the required information.
                     </Form.Text>
+                    <Form.Label>Name</Form.Label>
+                    <Form.Control type="text" placeholder="Enter Full name" name="name" required/>
+                    
                 </Form.Group>
 
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
-                    <Form.Control type="email" placeholder="Enter email" name="email"/>
+                    <Form.Control type="email" placeholder="Enter email" name="email" required/>
                     <Form.Text className="text-muted">
                     We'll never share your email with anyone else.
                     </Form.Text>
@@ -43,12 +44,12 @@ export default function ContactUs() {
 
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Subject</Form.Label>
-                    <Form.Control type="text"name="subject" />
+                    <Form.Control type="text" name="subject" required/>
                 </Form.Group>
 
                 <Form.Group controlId="exampleForm.ControlTextarea1">
                     <Form.Label>Write your message</Form.Label>
-                    <Form.Control as="textarea" rows="3" name="message"/>
+                    <Form.Control as="textarea" rows="3" name="message" required/>
                 </Form.Group>
 
                 <Button variant="primary" type="submit" 
