@@ -47,7 +47,7 @@ export default function ContactUs() {
                 </Form.Group>
 
                 <Form.Group controlId="exampleForm.ControlTextarea1">
-                    <Form.Label>Example textarea</Form.Label>
+                    <Form.Label>Write your message</Form.Label>
                     <Form.Control as="textarea" rows="3" name="message"/>
                 </Form.Group>
 
