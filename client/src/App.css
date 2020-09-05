@@ -1,12 +1,11 @@
+/* Whole doc */
 *{
   margin: 0;
   padding: 0;
 }
 
-.BlockFiller{
-  width: 100%;
-  height: 5rem;
-  background-color: #343a40;
+body{
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 html,body
@@ -17,9 +16,29 @@ html,body
     overflow-x: hidden; 
 }
 
-h1, h2, h3, h4, p, b{
-  font-family: 'Source Sans Pro', sans-serif;
+/* Homepage */
+.carousel-title{
+  position: relative;
+  bottom: 180px;
+  font-size: 50px;
+  font-weight: 650;
+  letter-spacing: 0.05em;
+  color: white;
 }
+
+.carousel-img {
+  padding: 2rem 3rem
+}
+
+.BlockFiller{
+  width: 100%;
+  height: 5rem;
+  background-color: #343a40;
+}
+
+
+
+
 
 hr {
   display: block;
@@ -33,12 +52,7 @@ hr {
 }
 
 
-.title{
-  position: relative;
-  bottom: 180px;
-  font-size: 40px;
-  color: white;
-}
+
 
 .caption{
   position: relative;
@@ -46,8 +60,6 @@ hr {
   font-size: 30px;
   color: white;
 }
-
-
 
 .quote{
   position: relative;

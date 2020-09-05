@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
-import lastspace from '../../assets/sky.jpg'
+// import lastspace from '../../assets/sky.jpg'
 
 export default function ContactUs() {
 
@@ -20,15 +20,15 @@ export default function ContactUs() {
   }
 
   return (
-    <div style={{backgroundColor: '#21122F', border: 'solid black 2px'}}>
-    <Card style={{ width: '40rem', margin: '30px auto' }}>
-        <Card.Header>Contact Us</Card.Header>
+    <div style={{backgroundColor: '#1B112C'}}>
+    <Card style={{ width: '40rem', margin: 'auto' }}>
+        <Card.Header style={{fontSize: '18px', color: 'white', backgroundColor: '#343a40'}}>Contact Us</Card.Header>
         <Card.Body style={{}}>
             
             <Form className="contact-form" onSubmit={sendEmail}>
 
                 <Form.Group controlId="formBasicEmail">
-                    <Form.Text className="text-muted">
+                    <Form.Text className="text-muted" style={{fontSize: '18px'}}>
                     Please fill in all inputs with the required information.
                     </Form.Text>
                     <Form.Label>Name</Form.Label>

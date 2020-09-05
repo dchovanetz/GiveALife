@@ -8,65 +8,60 @@ import fourth from '../../assets/water-lily2.jpg';
 import fifth from '../../assets/lastspace.jpg';
 import '../../App.css';
 
-//hello
-//hello2
 
 function Slider() {
     return (
     <div>
-  <Carousel>
-  <Carousel.Item >
+  <Carousel style={{height: 520}}>
+  <Carousel.Item data-interval="500" >
     <img
-      class='resize'
-      height = {575}
-      className="d-block w-100"
+      className='resize d-block w-100 carousel-image'
+      height = {520}
       src={first}
-      alt="Heart"
-      
+      alt="Heart"  
     />
     <Carousel.Caption>
-      <h3 class='title'><b>Give Your Life, Don’t Take it</b><br/><h4>Opportunity for Reciprocity</h4></h3>
+      <h1 className="carousel-title">Give Your Life, Don’t Take it</h1>
+      <h4>Opportunity for Reciprocity</h4>
       
-      <p class="caption">Let the “doing” change the beliefs and actions. A motto being,<br/> “If you’re too hopeless to fight for yourself, then do it for the next guy.”</p>
+      <p clasName="caption">Let the “doing” change the beliefs and actions. A motto being, “If you’re too hopeless to fight for yourself, then do it for the next guy.”</p>
     </Carousel.Caption>
   </Carousel.Item>
+
   <Carousel.Item>
     <img
-      class='resize'
-      height = {575}
-      className="d-block w-100"
+      className='resize d-block w-100'
+      height = {520}
       src={second}
       alt="Dandelion"
     />
-
     <Carousel.Caption>
-      <h3 class='quote' >“If you want to lift yourself up, lift up<br/>someone else”.</h3>
-      <p class='author'> - Booker T. Washington</p>
+      <h3 className='quote' >“If you want to lift yourself up, lift up<br/>someone else”.</h3>
+      <p className='author'> - Booker T. Washington</p>
     </Carousel.Caption>
   </Carousel.Item>
+
   <Carousel.Item>
     <img
-      class='resize'
-      height = {575}
-      className="d-block w-100"
+      className='resize d-block w-100'
+      height = {520}
       src={third}
       alt="Third slide"
     />
 
-    <Carousel.Caption>
-      <h3 id='thirdText'><b>If you are asking the question:</b><br/>
-      <h4>Would it be better<br/> if I wasn’t here?</h4></h3>
-      <h3 id='thirdSubText'><b>The answer is:</b><br/>
-      <h4>No one can take your place. <br/>People you haven’t met yet <br/>or who are not even born need you.</h4></h3>
-    </Carousel.Caption>
+    {/* <Carousel.Caption> */}
+      <h1 className='carousel-title'>If you are asking the question:</h1>
+      <h4>Would it be better if I wasn’t here?</h4>
+      <h1 className='carousel-title'>The answer is:</h1>
+      <h4>No one can take your place. People you haven’t met yet or who are not even born need you.</h4>
+    {/* </Carousel.Caption> */}
   </Carousel.Item>
 
 
 <Carousel.Item>
     <img
-      class='resize'
-      height = {575}
-      className="d-block w-100"
+      className='resize d-block w-100'
+      height = {520}
       src={fourth}
       alt="First slide"
     />
@@ -80,7 +75,7 @@ function Slider() {
   <Carousel.Item>
     <img
       class='resize'
-      height = {575}
+      height = {520}
       className="d-block w-100 img-responsive"
       src={fifth}
       alt="First slide"
