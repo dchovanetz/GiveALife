@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
+import lastspace from '../../assets/sky.jpg'
 
 export default function ContactUs() {
 
@@ -19,10 +20,11 @@ export default function ContactUs() {
   }
 
   return (
-    
-    <Card border="primary" style={{ width: '40rem', margin: '10px auto' }}>
+    <div style={{backgroundColor: '#21122F', border: 'solid black 2px'}}>
+    <Card style={{ width: '40rem', margin: '30px auto' }}>
         <Card.Header>Contact Us</Card.Header>
-        <Card.Body>
+        <Card.Body style={{}}>
+            
             <Form className="contact-form" onSubmit={sendEmail}>
 
                 <Form.Group controlId="formBasicEmail">
@@ -52,19 +54,21 @@ export default function ContactUs() {
                     <Form.Control as="textarea" rows="3" name="message" required/>
                 </Form.Group>
 
-                <Button variant="primary" type="submit" 
+                <Button variant="info" type="submit" 
                 onClick={() => {
                     alert("You've successfully sent us your information!")
-                  }}>
+                }}>
                     Send Message
                 </Button>
-        </Form>
+            </Form>
 
             <Card.Text>
                 Once message is sent, input fields will reset.
             </Card.Text>
         </Card.Body>
     </Card>
+        
 
+    </div>
   );
 }
