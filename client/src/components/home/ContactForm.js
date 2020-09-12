@@ -20,7 +20,7 @@ export default function ContactUs() {
   }
 
   return (
-    <div style={{backgroundColor: '#1B112C'}}>
+    <div style={{backgroundColor: '#22132F'}}>
     <Card style={{ width: '40rem', margin: 'auto' }}>
         <Card.Header style={{fontSize: '18px', color: 'white', backgroundColor: '#343a40'}}>Contact Us</Card.Header>
         <Card.Body style={{}}>

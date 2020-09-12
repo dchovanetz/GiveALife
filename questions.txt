@@ -1,0 +1,10 @@
+Questions for Pam
+
+
+What email service do you use for your business? gmail?
+EmailJs services: screen
+200 emails per month
+SendGrid requires a backend, 100 emails per week
+
+Do you have a logo that you want me to include?
+
