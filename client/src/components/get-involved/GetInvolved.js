@@ -10,7 +10,7 @@ import Event from '../../assets/GIEvent.jpg'
 function GetInvolved() {
     return(
         <div>
-            <div class="BlockFiller"></div>
+            {/* <div class="BlockFiller"></div> CC removed*/}
 
             <Mission/><br/>
 

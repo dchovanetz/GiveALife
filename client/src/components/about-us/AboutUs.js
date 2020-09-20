@@ -5,7 +5,7 @@ import {Card} from 'react-bootstrap';
 import about from '../../assets/about-us.jpg';
 import Founder from './Founder';
 import Bio from './Bio'
-import Mission from '../layout/Mission'
+// import Mission from '../layout/Mission'
 
 function AboutUs() {
     return(
@@ -25,7 +25,7 @@ function AboutUs() {
 
         <Bio/><br/><br/>
 
-        <Mission/>
+        {/* <Mission/>  CC removed */}
         </div>
        
     )
