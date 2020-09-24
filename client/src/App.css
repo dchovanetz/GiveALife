@@ -305,18 +305,23 @@ hr {
   font-size: 30px;
 }
 
+.resourcesTitle{
+  text-align: center;
+  color: #574F70;
+  margin-bottom: 2rem;
+}
 
 .resourcesMain{
   position: relative;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   justify-content: center;
-  margin-top: 11em;
+  margin-top: 9em;
   padding: 0 0 0 0;
 }
 
 .resourcesCardDeck{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    width: 90%;
    margin-bottom: 20px;
 }
@@ -325,4 +330,21 @@ hr {
   width: 100%;
   height: 16vw;
   object-fit: cover;
+  border-radius: 20px;
 }
+
+.resourcesCard{
+  border: none;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  /* -webkit-transition: all 0.4s; */
+  transition: all .35s;
+}
+
+.hovereffect:hover img {
+  filter: brightness(.7);
+}
+
