@@ -166,7 +166,7 @@ hr {
   position: absolute;
   top: 1rem;
   left: 1.2em;
-  z-index: 1;
+  z-index: 2;
   width: 97%;
   justify-content: center;
   border-radius: 1rem;
@@ -316,3 +316,47 @@ hr {
   width: 15rem;
   font-size: 30px;
 }
+
+.resourcesTitle{
+  text-align: center;
+  color: #574F70;
+  margin-bottom: 2rem;
+}
+
+.resourcesMain{
+  position: relative;
+  /* border: 1px solid red; */
+  width: 100%;
+  justify-content: center;
+  margin-top: 9em;
+  padding: 0 0 0 0;
+}
+
+.resourcesCardDeck{
+   /* border: 1px solid blue; */
+   width: 90%;
+   margin-bottom: 20px;
+}
+
+.cardImg{
+  width: 100%;
+  height: 16vw;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.resourcesCard{
+  border: none;
+}
+
+.hovereffect img {
+  display: block;
+  position: relative;
+  /* -webkit-transition: all 0.4s; */
+  transition: all .35s;
+}
+
+.hovereffect:hover img {
+  filter: brightness(.7);
+}
+
