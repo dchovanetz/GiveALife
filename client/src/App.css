@@ -174,6 +174,8 @@ hr {
   color: rgb(197, 185, 185);
 }
 
+/* ABOUT US  */
+
 #aboutQuote{
   position: relative;
   top: 12rem;
@@ -235,75 +237,27 @@ hr {
   bottom: 25rem;
 }
 
-#GetBody{
-  padding-left: 4rem;
-  padding-right: 4rem;
-}
+/* GET INVOLVED SECTION*/
 
-.GetText{
+.GetParagraph{
   font-size: 30px;
 }
 
-#GetHeader{
-  text-align: center;
-}
-
-#WaysGet{
-  position: absolute;
+.GetInvolvedSectionTitle{ 
   border-radius: 1rem;
-  left: 3rem;
-  right: 3rem;
   font-size: 30px;
   text-align: center;
   background-color: #95ADBE;
 }
 
-
-#EventImg{
- position: relative;
- width: 22rem;
- height: 19rem;
- left: 3rem;
+#GetInvolvedPage {
+  margin: 7em 4em 5em 4em;
 }
 
 
-#PartnerImg{
- position: relative;
- width: 22rem;
- height: 19rem;
- left: 6.5rem;
-}
+/* RESOURCES SECTION */
 
 
-#DonateImg{
- position: relative;
- width: 22rem;
- height: 19rem;
- left: 10rem;
-}
-
-#EventText{
-  position: absolute;
-  left: 8rem;
-  width: 15rem;
-  font-size: 30px;
-}
-
-
-#PartnerText{
-  position: absolute;
-  left: 33rem;
-  width: 15rem;
-  font-size: 30px;
-}
-
-
-#DonateText{
-  position: absolute;
-  right: 4rem;
-  width: 15rem;
-  font-size: 30px;
-}
 
 .resourcesTitle{
   text-align: center;
