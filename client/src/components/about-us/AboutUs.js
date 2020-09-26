@@ -2,7 +2,11 @@ import React from 'react';
 import '../../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card} from 'react-bootstrap';
-import about from '../../assets/about-us.jpg';
+//import about from '../../assets/about-us.jpg';
+//import about from '../../assets/about-sun-5189430_1920.jpg' 
+//import about from '../../assets/about-clouds-4750959_1920.jpg'
+import about from '../../assets/about-Helping-Others-drawing.jpg'
+
 import Founder from './Founder';
 import Bio from './Bio'
 // import Mission from '../layout/Mission'
