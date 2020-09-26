@@ -348,3 +348,347 @@ hr {
   filter: brightness(.7);
 }
 
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.BlockFiller{
+  width: 100%;
+  height: 5rem;
+  background-color: #343a40;
+}
+
+html,body
+{
+    /* width: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+
+h1, h2, h3, h4, p, b{
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: solid;
+  border-width: 1px;
+  color: #95ADBE;
+}
+
+
+.title{
+  position: relative;
+  bottom: 180px;
+  font-size: 40px;
+  color: white;
+}
+
+.caption{
+  position: relative;
+  bottom: 120px;
+  font-size: 30px;
+  color: white;
+}
+
+
+
+.quote{
+  position: relative;
+  bottom: 120px;
+  font-size: 40px;
+  color: white;
+}
+
+.author{
+  position: relative;
+  bottom: 130px;
+  left: 280px;
+  font-size: 25px;
+  color: white;
+}
+
+#thirdText{
+  position: relative;
+  font-size: 40px;
+  bottom: 130px;
+  color: #574F70;
+}
+
+#thirdSubText{
+  position: relative;
+  font-size: 30px;
+  bottom: 90px;
+  color: #574F70;
+}
+
+#fourthText{
+  position: relative;
+  font-size: 40px;
+  bottom: 100px;
+  color: white;
+}
+
+#fourthSubText{
+  position: relative;
+  bottom: 50px;
+  font-size: 24px;
+  color: white;
+}
+
+#fourthAuthor{
+  position: relative;
+  bottom: 45px;
+  left: 250px;
+  font-size: 18px;
+  color: white;
+}
+
+#midSec{
+  
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  padding-bottom: 2rem;
+}
+
+#aboutCard{
+  background-color: #574F70;
+  border-radius: 1rem;
+}
+
+#aboutText{
+  font-size: 29px;
+  color: white;
+}
+
+#emph{
+  font-size: 37px;
+}
+
+
+#whyCard{
+  border: none;
+}
+
+
+.whyTitle{
+  font-size: 35px;
+}
+
+.whyText{
+  position: relative;
+  left: 1rem;
+  font-size: 25px;
+}
+
+#symptom{
+  position: relative;
+  left: 3rem;
+}
+
+#pam{
+  font-size: 1.1rem;
+  position: relative;
+  top: 1.5rem;
+  left: 8rem;
+}
+
+#NavB{
+  position: absolute;
+  top: 1rem;
+  left: 1.2em;
+  z-index: 2;
+  width: 97%;
+  justify-content: center;
+  border-radius: .5rem;
+  /* border-radius: 1rem; */
+}
+
+#missTitle{
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+#missText{
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(197, 185, 185);
+}
+
+#aboutQuote{
+  position: relative;
+  top: 12rem;
+  text-align: center;
+  font-size: 50px;
+  color: white;
+}
+
+#aboutAuthor{
+  position: relative;
+  left: 50rem;
+  top: 14rem;
+  font-size: 30px;
+  color: white;
+}
+
+#fBody{
+  position: relative;
+  left: 12rem;
+  width: 70%;
+  text-align: center;
+}
+
+#foundCard{
+  border: none;
+}
+
+.fHeader{
+  color: #574F70;
+}
+
+.fText{
+  font-size: 22px;
+}
+
+#pamCard{
+  position: relative;
+  border-radius: 1rem;
+  left: 3.2rem;
+  background-color: #dff0ea;
+  height: 500px;
+  width: 92%;
+}
+
+#pamPic{
+  position: relative;
+  top: 35px;
+  left: 50px;
+  padding-bottom: 10px;
+  height: 440px;
+  width: 320px;
+}
+
+#pamInfo{
+  position: relative;
+  font-size: 21px;
+  width: 50%;
+  left: 30rem;
+  bottom: 25rem;
+}
+
+#GetBody{
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
+.GetText{
+  font-size: 30px;
+}
+
+#GetHeader{
+  text-align: center;
+}
+
+#WaysGet{
+  position: absolute;
+  border-radius: 1rem;
+  left: 3rem;
+  right: 3rem;
+  font-size: 30px;
+  text-align: center;
+  background-color: #95ADBE;
+}
+
+/* .GetParagraph{
+  font-size: 30px;
+}
+
+.GetInvolvedSectionTitle{ 
+  border-radius: 1rem;
+  font-size: 30px;
+  text-align: center;
+  background-color: #95ADBE;
+}
+
+#GetInvolvedPage {
+  margin: 7em 4em 5em 4em;
+}
+ */
+
+#EventImg{
+ position: relative;
+ width: 22rem;
+ height: 19rem;
+ left: 3rem;
+}
+
+
+#PartnerImg{
+ position: relative;
+ width: 22rem;
+ height: 19rem;
+ left: 6.5rem;
+}
+
+
+#DonateImg{
+ position: relative;
+ width: 22rem;
+ height: 19rem;
+ left: 10rem;
+}
+
+#EventText{
+  position: absolute;
+  left: 8rem;
+  width: 15rem;
+  font-size: 30px;
+}
+
+
+#PartnerText{
+  position: absolute;
+  left: 33rem;
+  width: 15rem;
+  font-size: 30px;
+}
+
+
+#DonateText{
+  position: absolute;
+  right: 4rem;
+  width: 15rem;
+  font-size: 30px;
+}
+
+
+.resourcesMain{
+  position: relative;
+  border: 1px solid red;
+  width: 100%;
+  justify-content: center;
+  margin-top: 11em;
+  padding: 0 0 0 0;
+}
+
+.resourcesCardDeck{
+   border: 1px solid blue;
+   width: 90%;
+   margin-bottom: 20px;
+}
+
+.cardImg{
+  width: 100%;
+  height: 16vw;
+  object-fit: cover;
+}
