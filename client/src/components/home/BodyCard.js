@@ -17,12 +17,12 @@ function BodyCard(){
 </div>
 
 
-{/* <div className="container mx-auto py-2"  >
+{/*  <div className="container mx-auto py-2"  >
  <video className="mx-auto" width="320" height="540" controls>
  <source src="../../assets/VID_20200515_112539.mp4" type="video/mp4"/>
  </video>
-</div>  
-</div> */}
+</div>   */}
+</div> 
     )
 }
 
