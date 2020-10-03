@@ -9,11 +9,8 @@ import Mission from '../layout/Mission'
 function Home() {
   return (
   <div id='background'>
-    
-   
     <Carousel/>
     <BodyCard/>
-    <Mission/>
     <ContactForm />
     
   </div>

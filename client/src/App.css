@@ -17,12 +17,44 @@ html,body
 }
 
 /* Homepage */
+p {
+  margin: 1.5rem 0;
+  padding: 0 2.5rem;
+}
+
+a:hover {
+  font-weight: 600;
+  text-decoration: none;
+}
+
 .carousel-title{
-  position: relative;
-  bottom: 180px;
-  font-size: 50px;
-  font-weight: 650;
+  font-size: 5rem;
+  font-weight: 750;
   letter-spacing: 0.05em;
+  padding: 2rem;
+  color: white;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-subtext{
+  font-size: 2rem;
+  color: white;
+}
+
+.carousel-quote{
+  font-size: 4rem;
+  color: white;
+}
+
+.carousel-text{
+  font-size: 2.5rem;
   color: white;
 }
 
@@ -37,9 +69,6 @@ html,body
 }
 
 
-
-
-
 hr {
   display: block;
   margin-top: 0.5em;
@@ -52,72 +81,10 @@ hr {
 }
 
 
-
-
-.caption{
-  position: relative;
-  bottom: 120px;
-  font-size: 30px;
-  color: white;
-}
-
-.quote{
-  position: relative;
-  bottom: 120px;
-  font-size: 40px;
-  color: white;
-}
-
-.author{
-  position: relative;
-  bottom: 130px;
-  left: 280px;
-  font-size: 25px;
-  color: white;
-}
-
-#thirdText{
-  position: relative;
-  font-size: 40px;
-  bottom: 130px;
-  color: #574F70;
-}
-
-#thirdSubText{
-  position: relative;
-  font-size: 30px;
-  bottom: 90px;
-  color: #574F70;
-}
-
-#fourthText{
-  position: relative;
-  font-size: 40px;
-  bottom: 100px;
-  color: white;
-}
-
-#fourthSubText{
-  position: relative;
-  bottom: 50px;
-  font-size: 24px;
-  color: white;
-}
-
-#fourthAuthor{
-  position: relative;
-  bottom: 45px;
-  left: 250px;
-  font-size: 18px;
-  color: white;
-}
-
-#midSec{
-  
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
+.body-text{
+  padding: 2rem;
+  font-size: 1.5rem;
+  text-align: center;
 }
 
 #aboutCard{
