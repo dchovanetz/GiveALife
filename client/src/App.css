@@ -62,6 +62,32 @@ a:hover {
   padding: 2rem 3rem
 }
 
+/* end of homepage */
+
+/* About Us page*/
+#pamCard{
+  color: white;
+  border-radius: 1rem;
+  background-color: #1b1b3a;
+  padding: 2rem
+}
+
+#pamPic{
+  border-radius: 0.75rem;
+  height: 375px;
+  width: 100ox;
+  margin-left: 1.5em;
+}
+
+.pamInfo{
+  font-size: 1.15em;
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+
+
+
 .BlockFiller{
   width: 100%;
   height: 5rem;
@@ -178,43 +204,8 @@ hr {
   text-align: center;
 }
 
-#foundCard{
-  border: none;
-}
 
-.fHeader{
-  color: #574F70;
-}
 
-.fText{
-  font-size: 22px;
-}
-
-#pamCard{
-  position: relative;
-  border-radius: 1rem;
-  left: 3.2rem;
-  background-color: #dff0ea;
-  height: 500px;
-  width: 92%;
-}
-
-#pamPic{
-  position: relative;
-  top: 35px;
-  left: 50px;
-  padding-bottom: 10px;
-  height: 440px;
-  width: 320px;
-}
-
-#pamInfo{
-  position: relative;
-  font-size: 21px;
-  width: 50%;
-  left: 30rem;
-  bottom: 25rem;
-}
 
 /* GET INVOLVED SECTION*/
 
