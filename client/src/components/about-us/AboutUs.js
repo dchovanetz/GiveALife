@@ -18,8 +18,8 @@ function AboutUs() {
         <Card>
         <Card.Img height={575} src={about} alt="Silhouette" />
             <Card.ImgOverlay>
-                <Card.Text>
-                 <h3 id='aboutQuote'>"The best way to find yourself is to<br/> lose yourself in the service of others."</h3>
+                <Card.Text class="centered">
+                 <p id='aboutQuote'>"The best way to find yourself is to lose yourself in the service of others."</p>
                  <p id='aboutAuthor'> - Mahatma Gandhi</p>
                 </Card.Text>
             </Card.ImgOverlay>
