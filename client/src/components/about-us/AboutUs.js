@@ -14,7 +14,6 @@ import Bio from './Bio'
 function AboutUs() {
     return(
         <div>
-
         <Card>
         <Card.Img height={575} src={about} alt="Silhouette" />
             <Card.ImgOverlay>

@@ -19,7 +19,24 @@ body {
 p {
   margin: 1.5rem 0;
   padding: 0 2.5rem;
+  font-size: 1.5rem;
 }
+
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
+}
+
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
 
 .centered {
   position: absolute;
@@ -30,7 +47,6 @@ p {
 
 .body-text {
   padding: 2rem;
-  font-size: 1.5rem;
   text-align: center;
 }
 /* End of Whole Doc */
@@ -134,19 +150,10 @@ hr {
 
 /* GetInvolved */
 
-.GetParagraph {
-  font-size: 30px;
-}
-
-.GetInvolvedSectionTitle {
-  border-radius: 1rem;
-  font-size: 30px;
-  text-align: center;
-  background-color: #95adbe;
-}
 
 #GetInvolvedPage {
-  margin: 7em 4em 5em 4em;
+  margin: 7rem auto 5rem auto;
+  width: 80vw
 }
 
 /* End of GetInvolved */

@@ -56,7 +56,7 @@ function GetInvolvedWaysTo() {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Event} />
           <Card.Body>
-            <Card.Title>Host an Event</Card.Title>
+            <Card.Title><h3>Host an Event</h3></Card.Title>
             <Card.Text>
               Spread the word about suicide prevention and help grow community
               awareness.
@@ -67,7 +67,7 @@ function GetInvolvedWaysTo() {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Partner} />
           <Card.Body>
-            <Card.Title>Partner with Us</Card.Title>
+            <Card.Title><h3>Partner with Us</h3></Card.Title>
             <Card.Text>
               Help individuals struggling with suicidal thoughts find a purpose
               and second chance at life.
@@ -78,7 +78,7 @@ function GetInvolvedWaysTo() {
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Donate} />
           <Card.Body>
-            <Card.Title>Donate</Card.Title>
+            <Card.Title><h3>Donate</h3></Card.Title>
             <Card.Text>
               No contribution is too small. Donations support events and
               educational materials.

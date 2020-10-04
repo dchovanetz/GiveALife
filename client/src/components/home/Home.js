@@ -8,7 +8,7 @@ import Mission from '../layout/Mission'
 
 function Home() {
   return (
-  <div id='background'>
+  <div>
     <Carousel/>
     <BodyCard/>
     <ContactForm />
