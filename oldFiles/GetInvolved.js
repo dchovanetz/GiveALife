@@ -6,18 +6,17 @@ import Mission from "../layout/Mission";
 import Donate from "../../assets/GIDonate.jpg";
 import Partner from "../../assets/GIPartner.jpg";
 import Event from "../../assets/GIEvent.jpg";
-// import map from "../../assets/chart_155139.png"
-
+import map from "../../assets/chart_155139.png"
 
 function GetInvolvedIntro() {
   return (
-<div className="body-text">
-      {/* <figure> 
+    <div className="body-text">
+      <figure> 
       <img id="mapImage" src={map} alt='map illustrates the suicide rates of the US in 2018'/>
       <figcaption>
       Figure shows a map of the United States with each state’s age-adjusted  suicide rate in 2018 indicated by color.<sup>1</sup>
       </figcaption>
-      </figure> */}
+      </figure>
       <p>
       Suicide claims approximately 48,000 lives each year in the United States. In the age group 10 to 34, it is the second leading cause of death and fourth leading cause of death from ages 35 to 54.<sup>1</sup> Research suggests that people with suicide ideation usually have two symptoms in common: 1) a sense of being a burden to others, 2) a profound sense of loneliness, alienation and isolation.<sup>2</sup> 
       </p>
@@ -44,6 +43,7 @@ function GetInvolvedIntro() {
         </ul>
       </footer>
     </div>
+    
   );
 }
 
@@ -75,7 +75,7 @@ function GetInvolvedWhatIf() {
 function GetInvolvedWaysTo() {
   return (
     <div className="bg-dark p-4">
-      <h2 class="white-text">Ways to Get Involved</h2>
+      <h2 className="white-text">Ways to Get Involved</h2>
 
       <CardDeck>
         <Card style={{ width: "18rem" }}>
@@ -119,7 +119,6 @@ function GetInvolved() {
   return (
     <div id="GetInvolvedPage">
       <GetInvolvedIntro />
-      {/* <GetInvolvedWhatIf /> */}
       <GetInvolvedWaysTo />
     </div>
   );
