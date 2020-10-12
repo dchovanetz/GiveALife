@@ -19,12 +19,12 @@ function Resources() {
 <Row className="justify-content-md-center">    
 <CardDeck className="resourcesCardDeck align-items-center  text-center">
 <Col xs={1} lg={12}></Col>
-  <Card className="resourcesCard hovereffect">
+  <Card className="resourcesCard">
     <a href="https://texassuicideprevention.org/">
-    <Card.Img variant="top" className="cardImg"  src={suicidePrevention} />
+    <Card.Img variant="top" className="cardImg hovereffect"  src={suicidePrevention} />
     </a>
     <Card.Body>
-      <Card.Title> <a href="https://texassuicideprevention.org/" class="img-responsive"> Texas Mental Health and Substance Use Services </a></Card.Title>
+      <Card.Title> <a href="https://texassuicideprevention.org/" className="img-responsive"> Texas Mental Health and Substance Use Services </a></Card.Title>
     </Card.Body>
     <Card.Link className="phoneNumber" a href="tel:1-800-273-8255"> 1-800-273-TALK (8255) </Card.Link>
   </Card>

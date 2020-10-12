@@ -199,7 +199,7 @@ a:hover {
   transition: all 0.35s;
 }
 
-.hovereffect:hover img {
+.hovereffect:hover {
   filter: brightness(0.7);
 }
 
