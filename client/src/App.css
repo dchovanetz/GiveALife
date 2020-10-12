@@ -164,7 +164,7 @@ a:hover {
 }
 
 .resourcesCardDeck{
-   border: 1px solid blue;
+   /* border: 1px solid blue; */
    width: 90%;
    margin-bottom: 5rem !important;
 }
