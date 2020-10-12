@@ -321,9 +321,9 @@ hr {
 }
 
 .resourcesCardDeck{
-   /* border: 1px solid blue; */
+   border: 1px solid blue;
    width: 90%;
-   margin-bottom: 20px;
+   margin-bottom: 5rem !important;
 }
 
 .cardImg{
@@ -334,6 +334,18 @@ hr {
 }
 
 .resourcesCard{
+  border: none;
+}
+
+.phoneNumber{
+  /* border: 1px solid blue; */
+  width: 90%;
+  margin-top: -1.5rem ;
+  /* border: 1px solid red; */
+  font-size: 20px;
+}
+
+.phone{
   border: none;
 }
 
