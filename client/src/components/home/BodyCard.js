@@ -2,45 +2,27 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card, CardDeck, Row, Col} from 'react-bootstrap';
 import '../../App.css';
+import backgroundImage from '../../assets/backgroundImage.jpg'
 
 function BodyCard(){
     return(
-<div id='midSec'>
-
-<Row className="justify-content-md-center">    
- <CardDeck>
-   <Col xs={6} lg={8}>
-    <Card id='whyCard'>
-      <Card.Body>
-        <Card.Title class='whyTitle'><b>Why Consider This Idea?</b></Card.Title><br/>
-          <Card.Text class='whyText'>
-           <p>Focusing on the wellbeing of others is not a new idea. Concentrating on others instead of ourselves has saved many of us from bad decisions.</p>
-        </Card.Text>
-        <br/>
-        <hr/>
-        <br/>
-        <Card.Title class='whyTitle'><b>Expanding the Conversation</b></Card.Title><br/>
-        <Card.Text class='whyText'><p>Research shows that people with suicide ideation usually have two symptoms in common:<br/><br/><p id='symptom'>1) A sense of being a burden to others<br/>2) A profound sense of loneliness, alienation and isolation</p><br/></p>
-        <p>The two lowest recorded suicide days in the United States were the day of the 1980 triumph of the US Olympic hockey team over Russia, and 9-11; both days distracting from suicide ideation by increasing a sense of belonging to a larger purpose.</p>
-        </Card.Text>
-    </Card.Body>
-    </Card>
-    </Col>
-
-    <Col>
-    <Card id='aboutCard'>
-      <Card.Body>
-        <Card.Text id='aboutText'>
-        <p>“Just this slight glimpse into a <b id='emph'>possible alternative to the dilemma of wanting to live but not wanting to live my life</b> as it was gave me hope. I started imagining a real place where people, whose suicide ideation was prompted by loss of meaning, could temporarily donate their lives in a way that rapidly revealed the value of their existence.”</p>
-        <p id='pam'>Give Your Life Founder,<br/> Pam Boyd</p>
-        </Card.Text>
-      </Card.Body>
-    </Card>
-    </Col>
-    </CardDeck>
-    </Row>
-  
+<div>
+<div className="container my-2 body-text">
+<h1>My name is Pam Boyd.</h1>
+<p>Several years ago, I experienced an avalanche of loss which sent me down a dark road of suicide. When you have experienced a loss of someone you love, something you cherished, or believe that your life is more burdensome than it is worth, taking your life might seem like a better option than living with the terrible pain. You or someone you know may have had a similar experience. </p>
+<p>When I faced this loss, loss situation, only one thought saved my life. That one thought was this: if I am going to take my life, why don’t I give it to somebody that needs it. That sent me to volunteering. My motto being, “If you’re too hopeless to fight for yourself, then do it for the next guy.” </p>
+<p><a className="text-info" href="/community">Find resources now.</a></p>
+<p>GIVE YOUR LIFE, DON'T TAKE IT is about giving access to anyone who is thinking about taking their life because of loss. Let the “doing” change the beliefs and actions. We need to grow awareness and build partnership. </p>
+<p><a className="text-info" href="/get-involved">Find out how you can help.</a></p>
 </div>
+
+
+{/*  <div className="container mx-auto py-2"  >
+ <video className="mx-auto" width="320" height="540" controls>
+ <source src="../../assets/VID_20200515_112539.mp4" type="video/mp4"/>
+ </video>
+</div>   */}
+</div> 
     )
 }
 

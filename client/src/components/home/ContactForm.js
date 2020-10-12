@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import Form from 'react-bootstrap/Form'
 import Button from 'react-bootstrap/Button'
 import Card from 'react-bootstrap/Card'
+import '../../assets/oilseed.jpg'
 
 export default function ContactUs() {
 
@@ -19,14 +20,14 @@ export default function ContactUs() {
   }
 
   return (
-    
-    <Card border="primary" style={{ width: '40rem', margin: '10px auto' }}>
+    <div className="my-5 py-5" style={{backgroundImage: '../../assets/oilseed.jpg'}}>
+    <Card  border="dark" style={{ width: '40rem', margin: '2rem auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
         <Card.Header>Contact Us</Card.Header>
         <Card.Body>
             <Form className="contact-form" onSubmit={sendEmail}>
 
                 <Form.Group controlId="formBasicEmail">
-                    <Form.Text className="text-muted">
+                    <Form.Text className="text-muted" style={{fontSize:'1rem'}}>
                     Please fill in all inputs with the required information.
                     </Form.Text>
                     <Form.Label>Name</Form.Label>
@@ -37,7 +38,7 @@ export default function ContactUs() {
                 <Form.Group controlId="formBasicEmail">
                     <Form.Label>Email address</Form.Label>
                     <Form.Control type="email" placeholder="Enter email" name="email" required/>
-                    <Form.Text className="text-muted">
+                    <Form.Text className="text-muted" style={{fontSize:'1rem'}}>
                     We'll never share your email with anyone else.
                     </Form.Text>
                 </Form.Group>
@@ -52,7 +53,7 @@ export default function ContactUs() {
                     <Form.Control as="textarea" rows="3" name="message" required/>
                 </Form.Group>
 
-                <Button variant="primary" type="submit" 
+                <Button variant="info" type="submit" 
                 onClick={() => {
                     alert("You've successfully sent us your information!")
                   }}>
@@ -65,6 +66,6 @@ export default function ContactUs() {
             </Card.Text>
         </Card.Body>
     </Card>
-
+    </div>
   );
 }

@@ -1,44 +1,103 @@
-import React from 'react';
-import '../../App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
-import {Card} from 'react-bootstrap';
-import Mission from '../layout/Mission'
-import Donate from '../../assets/GIDonate.jpg'
-import Partner from '../../assets/GIPartner.jpg'
-import Event from '../../assets/GIEvent.jpg'
+import React from "react";
+import "../../App.css";
+import "bootstrap/dist/css/bootstrap.min.css";
+import { Card, CardDeck } from "react-bootstrap";
+import Mission from "../layout/Mission";
+import Donate from "../../assets/GIDonate.jpg";
+import Partner from "../../assets/GIPartner.jpg";
+import Event from "../../assets/GIEvent.jpg";
+
+function GetInvolvedIntro() {
+  return (
+    <div>
+      <h1>Ways To Get Involved</h1>
+      <p  class="GetParagraph">
+        The <strong>GIVE YOUR LIFE. DON’T TAKE IT</strong> approach targets
+        those who have lost hope due to external circumstances. Obviously,
+        breaking through suicidal despair is a daunting task. Yet, for those who
+        hide their pain and intent, the odds of breaking through the fatal
+        mental agony is nearly impossible.
+      </p>
+    </div>
+  );
+}
+
+function GetInvolvedWhatIf() {
+  return (
+    <section class="GetParagraph">
+      <h2 class="GetInvolvedSectionTitle">But what if people who are depressed...</h2>
+
+      <p>
+      <strong>knew</strong> of the immediate availability of a third option?
+      </p>
+
+      <p>
+      <strong>escaped</strong> their mental prisons by obtaining purpose through service?
+      </p>
+
+      <p>
+      <strong>contributed</strong> their skills and talents to a well matched non profit?
+      </p>
+
+      <p>
+      <strong>received</strong>  financial support from organizations to allow them to access these opportunities?
+      </p>
+
+    </section>
+  );
+}
+
+function GetInvolvedWaysTo() {
+  return (
+    <section>
+      <h2 class="GetInvolvedSectionTitle">How can you help?</h2>
+
+      <CardDeck>
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={Event} />
+          <Card.Body>
+            <Card.Title><h3>Host an Event</h3></Card.Title>
+            <Card.Text>
+              Spread the word about suicide prevention and help grow community
+              awareness.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={Partner} />
+          <Card.Body>
+            <Card.Title><h3>Partner with Us</h3></Card.Title>
+            <Card.Text>
+              Help individuals struggling with suicidal thoughts find a purpose
+              and second chance at life.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+
+        <Card style={{ width: "18rem" }}>
+          <Card.Img variant="top" src={Donate} />
+          <Card.Body>
+            <Card.Title><h3>Donate</h3></Card.Title>
+            <Card.Text>
+              No contribution is too small. Donations support events and
+              educational materials.
+            </Card.Text>
+          </Card.Body>
+        </Card>
+      </CardDeck>
+    </section>
+  );
+}
 
 function GetInvolved() {
-    return(
-        <div>
-            <div class="BlockFiller"></div>
-
-            <Mission/><br/>
-
-            <div id="GetBody"><p class="GetText">The <b>GIVE YOUR LIFE. DON’T TAKE IT</b> approach targets those who have lost hope due to external circumstances. Obviously, breaking through suicidal despair is a daunting task. Yet, for those who hide their pain and intent, the odds of breaking through the fatal mental agony is nearly impossible.</p><br/>
-            <p><h1 id="GetHeader"><b>But what if...</b></h1></p>
-            <p class="GetText">The depressed knew of the immediate availability of a third option, reclaiming self-respect by giving, other than:<br/><br/>1) stay and suffer unbearable agony, or<br/>2) leave the pain by expediting my own death?<br/><br/>People struggling with depression knew that therapists, psychiatrists, social workers, clergy, and organizations would help them step out of their private mental prisons into a “new life” offering the possibility of new perspective, meaning and connections?<br/><br/>When financial stress was the major trailhead to suicidal depression, organizations would pay financial obligations while a person volunteered in a customized environment where they would have the structure and freedom to focus on a different world?<br/><br/>Therapists, social workers, psychiatrists, clergy, and organizations worked with high-energy volunteer environments where the needs on both sides of the equation could be met by utilizing the untapped resources of the depressed? And, what if providers worked with the patient to help choose a volunteer environment customized to their interests?</p></div>
-
-            <div id="WaysGet">Ways to Get Involved</div>
-            <br/><br/><br/><br/>
-
-            <div>
-                <img id="EventImg" src={Event} />
-                <img id="PartnerImg" src={Partner} />
-                <img id="DonateImg" src={Donate} />
-            </div>
-            <br/>
-            
-            <div id="EventText"><p><b>Host an Event</b><br/>Spread the word about suicide prevention and help grow community awareness.</p></div>
-
-            <div id="PartnerText"><p><b>Partner with Us</b><br/>Help individuals struggling with suicidal thoughts find a purpose and second chance at life.</p></div>
-
-            <div id="DonateText"><p><b>Donate</b><br/>No contribution is too small. Donations support events and educational materials.</p></div>
-
-           
-
-        </div>
-    )
-
+  return (
+    <div id="GetInvolvedPage">
+      <GetInvolvedIntro />
+      <GetInvolvedWhatIf />
+      <GetInvolvedWaysTo />
+    </div>
+  );
 }
 
 export default GetInvolved;

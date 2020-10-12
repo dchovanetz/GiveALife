@@ -20,7 +20,8 @@ function App() {
         <Route path="/community" component={Community} />
         <Route path="/donate" component={Donate} />
       </Switch>
-    </Router>
+      
+//     </Router>
   );
 }
 

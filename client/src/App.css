@@ -1,156 +1,59 @@
-*{
+/* Whole Doc */
+* {
   margin: 0;
   padding: 0;
 }
 
-.BlockFiller{
-  width: 100%;
-  height: 5rem;
-  background-color: #343a40;
+body {
+  font-family: "Source Sans Pro", sans-serif;
 }
 
-html,body
-{
-    /* width: 100%; */
-    margin: 0px;
-    padding: 0px;
-    overflow-x: hidden; 
+html,
+body {
+  /* width: 100%; */
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, p, b{
-  font-family: 'Source Sans Pro', sans-serif;
+p {
+  margin: 1.5rem 0;
+  padding: 0 2.5rem;
+  font-size: 1.5rem;
 }
 
-hr {
-  display: block;
-  margin-top: 0.5em;
-  margin-bottom: 0.5em;
-  margin-left: auto;
-  margin-right: auto;
-  border-style: solid;
-  border-width: 1px;
-  color: #95ADBE;
+h1{
+  font-size: 3.5rem;
+  font-weight: bold;
 }
 
-
-.title{
-  position: relative;
-  bottom: 180px;
-  font-size: 40px;
-  color: white;
+h2{
+  font-size: 2.5rem;
+  font-weight: bold;
 }
 
-.caption{
-  position: relative;
-  bottom: 120px;
-  font-size: 30px;
-  color: white;
+h3{
+  font-size: 1.5em;
+  font-weight: bold;
 }
 
 
-
-.quote{
-  position: relative;
-  bottom: 120px;
-  font-size: 40px;
-  color: white;
+.centered {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
-.author{
-  position: relative;
-  bottom: 130px;
-  left: 280px;
-  font-size: 25px;
-  color: white;
+.body-text {
+  padding: 2rem;
+  text-align: center;
 }
+/* End of Whole Doc */
 
-#thirdText{
-  position: relative;
-  font-size: 40px;
-  bottom: 130px;
-  color: #574F70;
-}
+/* Navbar */
 
-#thirdSubText{
-  position: relative;
-  font-size: 30px;
-  bottom: 90px;
-  color: #574F70;
-}
-
-#fourthText{
-  position: relative;
-  font-size: 40px;
-  bottom: 100px;
-  color: white;
-}
-
-#fourthSubText{
-  position: relative;
-  bottom: 50px;
-  font-size: 24px;
-  color: white;
-}
-
-#fourthAuthor{
-  position: relative;
-  bottom: 45px;
-  left: 250px;
-  font-size: 18px;
-  color: white;
-}
-
-#midSec{
-  
-  padding-top: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-  padding-bottom: 2rem;
-}
-
-#aboutCard{
-  background-color: #574F70;
-  border-radius: 1rem;
-}
-
-#aboutText{
-  font-size: 29px;
-  color: white;
-}
-
-#emph{
-  font-size: 37px;
-}
-
-
-#whyCard{
-  border: none;
-}
-
-
-.whyTitle{
-  font-size: 35px;
-}
-
-.whyText{
-  position: relative;
-  left: 1rem;
-  font-size: 25px;
-}
-
-#symptom{
-  position: relative;
-  left: 3rem;
-}
-
-#pam{
-  font-size: 1.1rem;
-  position: relative;
-  top: 1.5rem;
-  left: 8rem;
-}
-
-#NavB{
+#NavB {
   position: absolute;
   top: 1rem;
   left: 1.2em;
@@ -160,158 +63,98 @@ hr {
   border-radius: 1rem;
 }
 
-#missTitle{
-  position: relative;
-  text-align: center;
-  font-size: 50px;
-  color: black;
+a:hover {
+  font-weight: 600;
+  text-decoration: none;
 }
 
-#missText{
-  position: relative;
+/* End of Navbar */
+
+/* Homepage */
+
+.carousel-title {
+  font-size: 5rem;
+  font-weight: 750;
+  letter-spacing: 0.05em;
+  padding: 2rem;
+  color: white;
   text-align: center;
-  font-size: 40px;
-  color: rgb(197, 185, 185);
 }
 
-#aboutQuote{
-  position: relative;
-  top: 12rem;
-  text-align: center;
-  font-size: 50px;
+.carousel-subtext {
+  font-size: 2rem;
   color: white;
 }
 
-#aboutAuthor{
-  position: relative;
-  left: 50rem;
-  top: 14rem;
-  font-size: 30px;
+.carousel-quote {
+  font-size: 4rem;
   color: white;
 }
 
-#fBody{
-  position: relative;
-  left: 12rem;
-  width: 70%;
-  text-align: center;
+.carousel-text {
+  font-size: 2.5rem;
+  color: white;
 }
 
-#foundCard{
-  border: none;
+.carousel-img {
+  padding: 2rem 3rem;
 }
 
-.fHeader{
-  color: #574F70;
+
+/* End of Homepage */
+
+/* AboutUs*/
+
+#aboutQuote {
+  font-size: 3rem;
+  color: white;
 }
 
-.fText{
-  font-size: 22px;
+#aboutAuthor {
+  font-size: 2rem;
+  color: white;
 }
 
-#pamCard{
-  position: relative;
+#pamCard {
+  color: white;
   border-radius: 1rem;
-  left: 3.2rem;
-  background-color: #dff0ea;
-  height: 500px;
-  width: 92%;
+  background-color: #1b1b3a;
+  padding: 2rem;
 }
 
-#pamPic{
-  position: relative;
-  top: 35px;
-  left: 50px;
-  padding-bottom: 10px;
-  height: 440px;
-  width: 320px;
+#pamPic {
+  border-radius: 0.75rem;
+  height: 375px;
+  margin-left: 1.5em;
 }
 
-#pamInfo{
-  position: relative;
-  font-size: 21px;
-  width: 50%;
-  left: 30rem;
-  bottom: 25rem;
+.pamInfo {
+  font-size: 1.15em;
+  padding-left: 0;
+  padding-right: 2em;
 }
 
-#GetBody{
-  padding-left: 4rem;
-  padding-right: 4rem;
+/* End of AboutUs */
+
+/* GetInvolved */
+
+
+#GetInvolvedPage {
+  margin: 7rem auto 5rem auto;
+  width: 80vw
 }
 
-.GetText{
-  font-size: 30px;
-}
+/* End of GetInvolved */
 
-#GetHeader{
+/* Resources */
+
+.resourcesTitle {
   text-align: center;
-}
-
-#WaysGet{
-  position: absolute;
-  border-radius: 1rem;
-  left: 3rem;
-  right: 3rem;
-  font-size: 30px;
-  text-align: center;
-  background-color: #95ADBE;
-}
-
-
-#EventImg{
- position: relative;
- width: 22rem;
- height: 19rem;
- left: 3rem;
-}
-
-
-#PartnerImg{
- position: relative;
- width: 22rem;
- height: 19rem;
- left: 6.5rem;
-}
-
-
-#DonateImg{
- position: relative;
- width: 22rem;
- height: 19rem;
- left: 10rem;
-}
-
-#EventText{
-  position: absolute;
-  left: 8rem;
-  width: 15rem;
-  font-size: 30px;
-}
-
-
-#PartnerText{
-  position: absolute;
-  left: 33rem;
-  width: 15rem;
-  font-size: 30px;
-}
-
-
-#DonateText{
-  position: absolute;
-  right: 4rem;
-  width: 15rem;
-  font-size: 30px;
-}
-
-.resourcesTitle{
-  text-align: center;
-  color: #574F70;
+  color: #574f70;
   margin-bottom: 2rem;
 }
 
-.resourcesMain{
+.resourcesMain {
   position: relative;
   /* border: 1px solid red; */
   width: 100%;
@@ -326,14 +169,14 @@ hr {
    margin-bottom: 5rem !important;
 }
 
-.cardImg{
+.cardImg {
   width: 100%;
   height: 16vw;
   object-fit: cover;
   border-radius: 20px;
 }
 
-.resourcesCard{
+.resourcesCard {
   border: none;
 }
 
@@ -353,10 +196,28 @@ hr {
   display: block;
   position: relative;
   /* -webkit-transition: all 0.4s; */
-  transition: all .35s;
+  transition: all 0.35s;
 }
 
 .hovereffect:hover img {
-  filter: brightness(.7);
+  filter: brightness(0.7);
 }
 
+/* End of Resources */
+
+/* Mission  */
+#missTitle {
+  position: relative;
+  text-align: center;
+  font-size: 50px;
+  color: black;
+}
+
+#missText {
+  position: relative;
+  text-align: center;
+  font-size: 40px;
+  color: rgb(197, 185, 185);
+}
+
+/* End of Mission */
