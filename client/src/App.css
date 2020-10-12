@@ -163,10 +163,10 @@ a:hover {
   padding: 0 0 0 0;
 }
 
-.resourcesCardDeck {
-  /* border: 1px solid blue; */
-  width: 90%;
-  margin-bottom: 20px;
+.resourcesCardDeck{
+   /* border: 1px solid blue; */
+   width: 90%;
+   margin-bottom: 5rem !important;
 }
 
 .cardImg {
@@ -180,6 +180,18 @@ a:hover {
   border: none;
 }
 
+.phoneNumber{
+  /* border: 1px solid blue; */
+  width: 90%;
+  margin-top: -1.5rem ;
+  /* border: 1px solid red; */
+  font-size: 20px;
+}
+
+.phone{
+  border: none;
+}
+
 .hovereffect img {
   display: block;
   position: relative;
@@ -187,7 +199,7 @@ a:hover {
   transition: all 0.35s;
 }
 
-.hovereffect:hover img {
+.hovereffect:hover {
   filter: brightness(0.7);
 }
 
