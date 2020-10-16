@@ -17,6 +17,10 @@ function Bio(){
                     <p className="pamInfo"><em>As a Life Coach</em>, she helps individuals get past their obstacles and on with their dreams by assisting with goal-setting, self-confidence, forgiveness, self-love, and clarity.</p>
                     <p className="pamInfo"><em>As a speaker and a writer</em>, she hopes to increase awareness of the deadly nature of depression and introduce a new prevention idea that involves high-energy volunteer environments where new purpose and hope is introduced.</p>
                     <p className="pamInfo"><em>As a Crisis Intervention Specialist volunteer</em> and trainer for Contact Crisis Line.</p>
+                    <p className="pamSocial"><div>
+                    <a class="fab fa-twitter" href="http://twitter.com/PamGBoyd" target="_blank"></a></div>
+                    <div>
+                    <a class="fab fa-blogger" href="https://pamboyd.wordpress.com/" target="_blank"></a></div></p>
                 </div>
             </div>
         </div>
