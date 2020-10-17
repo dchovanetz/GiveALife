@@ -20,7 +20,7 @@ function Slider() {
       src={first}
       alt="Heart"  
     />
-    <div className="centered">
+    <div className="carousel-centered">
     <p className="carousel-title">GIVE YOUR LIFE, DON'T TAKE IT</p>
 x    </div>
   </Carousel.Item>
@@ -32,7 +32,7 @@ x    </div>
       src={second}
       alt="Dandelion"
     />
-      <div className="centered">
+      <div className="carousel-centered">
     <p className="carousel-text">"The best way to find yourself is to
 lose yourself in the service of others."</p>
     <p className="carousel-subtext">- Mahatma Gandhi </p> 
@@ -46,7 +46,7 @@ lose yourself in the service of others."</p>
       src={third}
       alt="Third slide"
     />
-<div className="centered carousel-text">
+<div className="carousel-centered carousel-text">
     <p><b>If you are asking the question: </b> Would it be better if I wasn’t here?</p>
       <p><b>The answer is: </b> No one can take your place. People you haven’t met yet or who are not even born need you. </p>
     </div>
@@ -60,7 +60,7 @@ lose yourself in the service of others."</p>
       src={fifth}
       alt="First slide"
     />
-    <div className="centered">
+    <div className="carousel-centered">
     <p className="carousel-text">“Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.”</p>
       <p className="carousel-subtext">― Dale Carnegie </p>
     </div>

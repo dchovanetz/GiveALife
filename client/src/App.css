@@ -51,9 +51,58 @@ h3{
 }
 /* End of Whole Doc */
 
-/* Navbar */
+/* About Us page*/
+#pamCard{
+  color: white;
+  border-radius: 1rem;
+  background-color: #1b1b3a;
+  padding: 2rem
+}
 
-#NavB {
+#pamPic{
+  border-radius: 0.75rem;
+  height: 375px;
+  width: 100ox;
+  margin-left: 1.5em;
+}
+
+.pamInfo{
+  font-size: 1.15em;
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+/* end of about us page */
+
+
+/* get involved page */
+#mapImage {
+  width: 875px;
+}
+
+footer li, figcaption {
+  font-size:0.75em;
+  list-style-type: none;
+}
+
+footer li a {
+  color: darkgray;
+}
+
+#whatIf-div {
+  background-color: #1b1b3a;
+  color: white;
+}
+
+.white-text {
+  color: white
+}
+
+/* end og get inovlved page */
+
+
+
+#NavB{
   position: absolute;
   top: 1rem;
   left: 1.2em;
@@ -91,48 +140,6 @@ a:hover {
   color: white;
 }
 
-.carousel-text {
-  font-size: 2.5rem;
-  color: white;
-}
-
-.carousel-img {
-  padding: 2rem 3rem;
-}
-
-
-/* End of Homepage */
-
-/* AboutUs*/
-
-#aboutQuote {
-  font-size: 3rem;
-  color: white;
-}
-
-#aboutAuthor {
-  font-size: 2rem;
-  color: white;
-}
-
-#pamCard {
-  color: white;
-  border-radius: 1rem;
-  background-color: #1b1b3a;
-  padding: 2rem;
-}
-
-#pamPic {
-  border-radius: 0.75rem;
-  height: 375px;
-  margin-left: 1.5em;
-}
-
-.pamInfo {
-  font-size: 1.15em;
-  padding-left: 0;
-  padding-right: 2em;
-}
 
 /* End of AboutUs */
 

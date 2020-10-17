@@ -6,18 +6,43 @@ import Mission from "../layout/Mission";
 import Donate from "../../assets/GIDonate.jpg";
 import Partner from "../../assets/GIPartner.jpg";
 import Event from "../../assets/GIEvent.jpg";
+// import map from "../../assets/chart_155139.png"
+
 
 function GetInvolvedIntro() {
   return (
-    <div>
-      <h1>Ways To Get Involved</h1>
-      <p  class="GetParagraph">
-        The <strong>GIVE YOUR LIFE. DON’T TAKE IT</strong> approach targets
-        those who have lost hope due to external circumstances. Obviously,
-        breaking through suicidal despair is a daunting task. Yet, for those who
-        hide their pain and intent, the odds of breaking through the fatal
-        mental agony is nearly impossible.
+<div className="body-text">
+      {/* <figure> 
+      <img id="mapImage" src={map} alt='map illustrates the suicide rates of the US in 2018'/>
+      <figcaption>
+      Figure shows a map of the United States with each state’s age-adjusted  suicide rate in 2018 indicated by color.<sup>1</sup>
+      </figcaption>
+      </figure> */}
+      <p>
+      Suicide claims approximately 48,000 lives each year in the United States. In the age group 10 to 34, it is the second leading cause of death and fourth leading cause of death from ages 35 to 54.<sup>1</sup> Research suggests that people with suicide ideation usually have two symptoms in common: 1) a sense of being a burden to others, 2) a profound sense of loneliness, alienation and isolation.<sup>2</sup> 
       </p>
+      <div className="py-3 mb-3" id="whatIf-div">
+        <p>
+        What if people struggling with depression knew that therapists, psychiatrists, social workers, clergy, and organizations would help them step out of their private mental prisons into a “new life” offering the possibility of new perspective, meaning and connections? What if the depressed knew of the immediate availability of a third option other than staying and suffering unbearable agony, or leave the pain by expediting my own death? 
+        </p>
+      </div>
+      <h2>The 3rd option is give your life, don't take it.</h2>
+      <p>
+      <strong>GIVE YOUR LIFE, DON’T TAKE IT</strong> expands the suicide prevention conversation to provide avenues for reciprocity and active giving as pathways to immediate usefulness and perspective for men, women, teens, vets, and seniors who stand on the suicidal trailheads of loss, feeling overwhelmed, shame, and disconnect. Studies support this strategy of providing a way for suffers to be active-givers versus passive-receivers to reduce suicidal depression and ideation.<sup>2</sup>   
+      </p>
+      <p>
+      Obviously, breaking through suicidal despair is a daunting task. Yet, for those who hide their pain and intent, the odds of breaking through the fatal mental agony is nearly impossible. The simple redirection toward doing and giving will not stop suicide for every sufferer but will do so for such a significant number that it cannot be ignored. We need your help to accomplish our mission. 
+      </p>
+      <footer>
+        <ul>
+          <li>
+          <a href="National Institute of Mental Health: Suicide Statistic"><sup>1</sup>National Institute of Mental Health: Suicide Statistic</a>
+          </li>
+          <li>
+          <a href="https://drive.google.com/file/d/1mP7xHBCLCTZ3t58msHPXJ9nq8syPd7ll/view?usp=sharing"><sup>2</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
+          </li>
+        </ul>
+      </footer>
     </div>
   );
 }
@@ -49,14 +74,14 @@ function GetInvolvedWhatIf() {
 
 function GetInvolvedWaysTo() {
   return (
-    <section>
-      <h2 class="GetInvolvedSectionTitle">How can you help?</h2>
+    <div className="bg-dark p-4">
+      <h2 class="white-text">Ways to Get Involved</h2>
 
       <CardDeck>
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Event} />
-          <Card.Body>
-            <Card.Title><h3>Host an Event</h3></Card.Title>
+          <Card.Body className="yellowBackground">
+            <Card.Title>Host an Event</Card.Title>
             <Card.Text>
               Spread the word about suicide prevention and help grow community
               awareness.
@@ -66,8 +91,8 @@ function GetInvolvedWaysTo() {
 
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Partner} />
-          <Card.Body>
-            <Card.Title><h3>Partner with Us</h3></Card.Title>
+          <Card.Body className="yellowBackground">
+            <Card.Title>Partner with Us</Card.Title>
             <Card.Text>
               Help individuals struggling with suicidal thoughts find a purpose
               and second chance at life.
@@ -77,8 +102,8 @@ function GetInvolvedWaysTo() {
 
         <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Donate} />
-          <Card.Body>
-            <Card.Title><h3>Donate</h3></Card.Title>
+          <Card.Body className="yellowBackground">
+            <Card.Title>Donate</Card.Title>
             <Card.Text>
               No contribution is too small. Donations support events and
               educational materials.
@@ -86,7 +111,7 @@ function GetInvolvedWaysTo() {
           </Card.Body>
         </Card>
       </CardDeck>
-    </section>
+    </div>
   );
 }
 
@@ -94,7 +119,7 @@ function GetInvolved() {
   return (
     <div id="GetInvolvedPage">
       <GetInvolvedIntro />
-      <GetInvolvedWhatIf />
+      {/* <GetInvolvedWhatIf /> */}
       <GetInvolvedWaysTo />
     </div>
   );

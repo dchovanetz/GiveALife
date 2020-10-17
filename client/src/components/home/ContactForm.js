@@ -20,7 +20,7 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="my-5 py-5" style={{backgroundImage: '../../assets/oilseed.jpg'}}>
+    <div className="yellowBackground py-5" style={{backgroundImage: '../../assets/oilseed.jpg'}}>
     <Card  border="dark" style={{ width: '40rem', margin: '2rem auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
         <Card.Header>Contact Us</Card.Header>
         <Card.Body>
