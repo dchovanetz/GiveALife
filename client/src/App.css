@@ -120,8 +120,17 @@ a:hover {
 /* End of Navbar */
 
 /* Homepage */
+p {
+  margin: 1.5rem 0;
+  padding: 0 2.5rem;
+}
 
-.carousel-title {
+a:hover {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.carousel-title{
   font-size: 5rem;
   font-weight: 750;
   letter-spacing: 0.05em;
@@ -130,18 +139,45 @@ a:hover {
   text-align: center;
 }
 
-.carousel-subtext {
+.carousel-centered {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centered {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.carousel-subtext{
   font-size: 2rem;
   color: white;
 }
 
-.carousel-quote {
+.carousel-quote{
   font-size: 4rem;
   color: white;
 }
 
+.carousel-text{
+  font-size: 2.5rem;
+  color: white;
+}
 
-/* End of AboutUs */
+.carousel-img {
+  padding: 2rem 3rem
+}
+
+.yellowBackground {
+  /* background-color: #FCCA46; */
+  background-color: #F3A712;
+}
+
+/* end of homepage */
 
 /* GetInvolved */
 

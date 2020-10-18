@@ -39,7 +39,7 @@ function GetInvolvedIntro() {
           <a href="National Institute of Mental Health: Suicide Statistic"><sup>1</sup>National Institute of Mental Health: Suicide Statistic</a>
           </li>
           <li>
-          <a href="https://drive.google.com/file/d/1mP7xHBCLCTZ3t58msHPXJ9nq8syPd7ll/view?usp=sharing"><sup>2</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
+          <a href="https://www.icloud.com/iclouddrive/07e11STHpY1sThK7hNcVOESQg#White_Paper_Suicide_Prevention" target="_blank"><sup>2</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
           </li>
         </ul>
       </footer>
