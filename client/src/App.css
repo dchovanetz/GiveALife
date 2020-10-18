@@ -106,21 +106,6 @@ a:hover {
 
 /* AboutUs*/
 
-#aboutQuote {
-  font-size: 2rem;
-  color: white;
-}
-/* #aboutQuote {
-  font-size: 3rem;
-  color: white;
-} */
-
-
-#aboutAuthor {
-  font-size: 2rem;
-  color: white;
-}
-
 #pamCard {
   color: white;
   border-radius: 1rem;
@@ -139,17 +124,19 @@ a:hover {
   padding-left: 0;
   padding-right: 2em;
 }
-.pamSocial {
 
+.pamSocial {
   display: flex;
-	justify-content: center;
-  width: 500px;
+	justify-content: flex-end;
+  width: 100%;
   align-content: space-between;
 }
+
 .pamSocial > div {
   font-size: 1.15em;
   margin: 0px 20px;
 }
+
 /* End of AboutUs */
 
 /* GetInvolved */
@@ -221,7 +208,7 @@ a:hover {
   position: relative;
   text-align: center;
   font-size: 40px;
-  color: rgb(197, 185, 185);
+  color: white;
 }
 
 /* End of Mission */
