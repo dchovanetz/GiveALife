@@ -35,7 +35,7 @@ x    </div>
       <div className="carousel-centered">
     <p className="carousel-text">"The best way to find yourself is to
       lose yourself in the service of others."</p>
-    <p className="carousel-subtext">- Mahatma Gandhi </p> 
+    <p className="carousel-text d-flex justify-content-end">- Mahatma Gandhi </p> 
     </div>
   </Carousel.Item>
 
@@ -46,9 +46,9 @@ x    </div>
       src={third}
       alt="Sneakers in the sand"
     />
-<div className="carousel-centered carousel-text">
-    <p><b>If you are asking the question: </b> Would it be better if I wasn’t here?</p>
-      <p><b>The answer is: </b> No one can take your place. People you haven’t met yet or who are not even born need you. </p>
+<div className="carousel-centered">
+    <p className="carousel-text"><b>If you are asking the question: </b> Would it be better if I wasn’t here?</p>
+      <p className="carousel-text"><b>The answer is: </b> No one can take your place. People you haven’t met yet or who are not even born need you. </p>
     </div>
   </Carousel.Item>
 
@@ -62,7 +62,7 @@ x    </div>
     />
     <div className="carousel-centered">
     <p className="carousel-text">“Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.”</p>
-      <p className="carousel-subtext">― Dale Carnegie </p>
+      <p className="carousel-text d-flex justify-content-end">― Dale Carnegie </p>
     </div>
   </Carousel.Item>
 

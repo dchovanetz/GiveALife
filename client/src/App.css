@@ -21,10 +21,10 @@ p {
   font-size: 1.5rem;
 }
 
-h1{
+/* h1{
   font-size: 3.5rem;
   font-weight: bold;
-}
+} */
 
 h2{
   font-size: 2.5rem;
@@ -124,7 +124,7 @@ p {
 }
 
 .carousel-title{
-  font-size: 5rem;
+  font-size: 4rem;
   font-weight: 750;
   letter-spacing: 0.05em;
   padding: 2rem;
@@ -136,28 +136,22 @@ p {
   position: absolute;
   top: 48%;
   left: 50%;
+  width: 65%;
   transform: translate(-50%, -50%);
 }
 
-.centered {
-  position: absolute;
-  top: 48%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-.carousel-subtext{
+/* .carousel-subtext{
   font-size: 2rem;
   color: white;
-}
+} */
 
 .carousel-quote{
   font-size: 4rem;
   color: white;
 }
 
-.carousel-text{
-  font-size: 2.5rem;
+.carousel-text {
+  font-size: 2rem;
   color: white;
 }
 
