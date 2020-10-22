@@ -19,14 +19,15 @@ function GetInvolvedIntro() {
       </figcaption>
       </figure> */}
       <p>
-      Suicide claims approximately 48,000 lives each year in the United States. In the age group 10 to 34, it is the second leading cause of death and fourth leading cause of death from ages 35 to 54.<sup>1</sup> Research suggests that people with suicide ideation usually have two symptoms in common: 1) a sense of being a burden to others, 2) a profound sense of loneliness, alienation and isolation.<sup>2</sup> 
+      Suicide claims approximately 48,000 lives each year in the United States. In the age group 10 to 34, it is the second leading cause of death and fourth leading cause of death from ages 35 to 54.<sup>1</sup> Research suggests that people with suicide ideation usually have two symptoms in common: a sense of being a burden to others and a profound sense of loneliness, alienation and isolation.<sup>2</sup> You or someone you know may have had a similar experience. 
       </p>
-      <div className="py-3 mb-3" id="whatIf-div">
+      <h3>Some believe that they only have two options: 1) living with the terrible pain or 2) taking thier life.  </h3>
+      <div className="py-3 my-3" id="whatIf-div">
         <p>
         What if people struggling with depression knew that therapists, psychiatrists, social workers, clergy, and organizations would help them step out of their private mental prisons into a “new life” offering the possibility of new perspective, meaning and connections? What if the depressed knew of the immediate availability of a third option other than staying and suffering unbearable agony, or leave the pain by expediting my own death? 
         </p>
       </div>
-      <h2>The 3rd option is give your life, don't take it.</h2>
+      <h3>The 3rd option is give your life, don't take it.</h3>
       <p>
       <strong>GIVE YOUR LIFE, DON’T TAKE IT</strong> expands the suicide prevention conversation to provide avenues for reciprocity and active giving as pathways to immediate usefulness and perspective for men, women, teens, vets, and seniors who stand on the suicidal trailheads of loss, feeling overwhelmed, shame, and disconnect. Studies support this strategy of providing a way for suffers to be active-givers versus passive-receivers to reduce suicidal depression and ideation.<sup>2</sup>   
       </p>
