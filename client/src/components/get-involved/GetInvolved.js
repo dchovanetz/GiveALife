@@ -6,8 +6,7 @@ import Mission from "../layout/Mission";
 import Donate from "../../assets/GIDonate.jpg";
 import Partner from "../../assets/GIPartner.jpg";
 import Event from "../../assets/GIEvent.jpg";
-// import map from "../../assets/chart_155139.png"
-
+import GetInvolvedImage from "./GetInvolvedImage"
 
 function GetInvolvedIntro() {
   return (
@@ -48,30 +47,6 @@ function GetInvolvedIntro() {
   );
 }
 
-function GetInvolvedWhatIf() {
-  return (
-    <section class="GetParagraph">
-      <h2 class="GetInvolvedSectionTitle">But what if people who are depressed...</h2>
-
-      <p>
-      <strong>knew</strong> of the immediate availability of a third option?
-      </p>
-
-      <p>
-      <strong>escaped</strong> their mental prisons by obtaining purpose through service?
-      </p>
-
-      <p>
-      <strong>contributed</strong> their skills and talents to a well matched non profit?
-      </p>
-
-      <p>
-      <strong>received</strong>  financial support from organizations to allow them to access these opportunities?
-      </p>
-
-    </section>
-  );
-}
 
 function GetInvolvedWaysTo() {
   return (
@@ -101,7 +76,7 @@ function GetInvolvedWaysTo() {
           </Card.Body>
         </Card>
 
-        <Card style={{ width: "18rem" }}>
+        {/* <Card style={{ width: "18rem" }}>
           <Card.Img variant="top" src={Donate} />
           <Card.Body className="yellowBackground">
             <Card.Title>Donate</Card.Title>
@@ -110,7 +85,7 @@ function GetInvolvedWaysTo() {
               educational materials.
             </Card.Text>
           </Card.Body>
-        </Card>
+        </Card> */}
       </CardDeck>
     </div>
   );
@@ -118,7 +93,8 @@ function GetInvolvedWaysTo() {
 
 function GetInvolved() {
   return (
-    <div id="GetInvolvedPage">
+    <div>
+      < GetInvolvedImage />
       <GetInvolvedIntro />
       {/* <GetInvolvedWhatIf /> */}
       <GetInvolvedWaysTo />

@@ -20,7 +20,7 @@ function AboutUs() {
 
       <Founder />
 
-      <Bio /><br /><br />
+      <Bio />
     </div>
 
   )
