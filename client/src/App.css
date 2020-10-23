@@ -104,12 +104,15 @@ footer li a {
 #NavB{
   position: absolute;
   top: 1rem;
-  left: 1.2em;
   z-index: 2;
   width: 97%;
-  justify-content: center;
   border-radius: .5rem;
  /* border-radius: 1rem; */
+}
+
+#navDiv {
+  display: flex;
+  justify-content: center;
 }
 
 a:hover {
@@ -140,6 +143,15 @@ p {
   width: 65%;
   transform: translate(-50%, -50%);
 }
+
+@media screen and (max-width: 414px) {
+  img {
+     height: ;
+   }
+  
+  
+  
+  }
 
 /* .carousel-subtext{
   font-size: 2rem;

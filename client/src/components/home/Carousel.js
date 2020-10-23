@@ -15,10 +15,9 @@ function Slider() {
   <Carousel style={{height: 550}}>
   <Carousel.Item autoplay={ false } >
     <img
-      className='resize d-block w-100 carousel-image'
+      className='.img-fluid. max-width: 100% d-block w-100'
       height = {550}
       src={first}
-      alt="Heart on foggy glass"  
     />
     <div className="carousel-centered">
     <p className="carousel-title">GIVE YOUR LIFE, DON'T TAKE IT</p>
@@ -30,7 +29,6 @@ x    </div>
       className='resize d-block w-100'
       height = {550}
       src={second}
-      alt="Woman standing in a field at sunset"
     />
       <div className="carousel-centered">
     <p className="carousel-text">"The best way to find yourself is to
@@ -44,7 +42,6 @@ x    </div>
       className='resize d-block w-100'
       height = {550}
       src={third}
-      alt="Sneakers in the sand"
     />
 <div className="carousel-centered">
     <p className="carousel-text"><b>If you are asking the question: </b> Would it be better if I wasn’t here?</p>
@@ -58,7 +55,6 @@ x    </div>
       height = {550}
       className="d-block w-100 img-responsive"
       src={fourth}
-      alt="Man standing facing the sunset"
     />
     <div className="carousel-centered">
     <p className="carousel-text">“Most of the important things in the world have been accomplished by people who have kept on trying when there seemed to be no hope at all.”</p>

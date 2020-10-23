@@ -6,8 +6,9 @@ import "../../App.css";
 
 function Navb() {
   return (
+    <div id="navDiv">
     <Navbar bg="dark" variant="dark" expand="lg" id="NavB">
-      <Navbar.Brand>Logo</Navbar.Brand>
+      <Navbar.Brand id="logo">Logo</Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
@@ -33,6 +34,8 @@ function Navb() {
         </Form>
       </Navbar.Collapse>
     </Navbar>
+    </div>
+ 
   );
 }
 
