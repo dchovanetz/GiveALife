@@ -3,7 +3,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import {Carousel} from 'react-bootstrap';
 import first from '../../assets/firstheart.jpg';
 import second from '../../assets/secondImageFinal.jpg';
-import third from '../../assets/thirdImage3.jpg';
+import third from '../../assets/feetinsand.jpg';
 import fourth from '../../assets/lastImage.jpg';
 import '../../App.css';
 
