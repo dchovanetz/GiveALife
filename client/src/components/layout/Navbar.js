@@ -3,28 +3,35 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import { Navbar, Form, Button, Nav } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import "../../App.css";
+import logo from '../../assets/logo.png';
+
 
 function Navb() {
   return (
     <div id="navDiv">
     <Navbar bg="dark" variant="dark" expand="lg" id="NavB">
-      <Navbar.Brand id="logo">Logo</Navbar.Brand>
+      <Navbar.Brand >
+        <img id="logo"
+        className="img-fluid max-width: 10%" 
+        src={logo}
+        />
+      </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Nav.Link as={Link} to="/">
+          <Nav.Link className='nav-link' as={Link} to="/">
             Home
           </Nav.Link>
-          <Nav.Link as={Link}  to="/about-us">
+          <Nav.Link className='nav-link' as={Link}  to="/about-us">
             About Us
           </Nav.Link>
-          <Nav.Link as={Link}  to="/get-involved">
+          <Nav.Link className='nav-link' as={Link}  to="/get-involved">
             Get Involved
           </Nav.Link>
-          <Nav.Link as={Link}  to="/community">
+          <Nav.Link className='nav-link' as={Link}  to="/community">
             Community
           </Nav.Link>
-          <Nav.Link as={Link}  to="/donate">
+          <Nav.Link className='nav-link' as={Link}  to="/donate">
             Donate
           </Nav.Link>
         </Nav>

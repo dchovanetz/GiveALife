@@ -21,13 +21,15 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="py-5" >
-    <Card  border="dark" style={{ width: '40rem', margin: '2rem auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
-        <Card.Header>Contact Us</Card.Header>
+    <div className='container mb-4'>
+    <Card  border="dark" style={{ width: '90%', margin: 'auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
         <Card.Body>
             <Form className="contact-form" onSubmit={sendEmail}>
 
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicEmail"> <Form.Text style={{fontSize:'1.25rem'}}>
+                    Contact Us
+                    </Form.Text>
+
                     <Form.Text className="text-muted" style={{fontSize:'1rem'}}>
                     Please fill in all inputs with the required information.
                     </Form.Text>
@@ -62,9 +64,7 @@ export default function ContactUs() {
                 </Button>
         </Form>
 
-            <Card.Text>
-                Once message is sent, input fields will reset.
-            </Card.Text>
+
         </Card.Body>
     </Card>
     </div>

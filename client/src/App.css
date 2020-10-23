@@ -26,7 +26,7 @@ p {
   font-weight: bold;
 } */
 
-h2{
+/* h2{
   font-size: 2.5rem;
   font-weight: bold;
 }
@@ -34,7 +34,7 @@ h2{
 h3{
   font-size: 1.5em;
   font-weight: bold;
-}
+} */
 
 
 .centered {
@@ -113,6 +113,24 @@ footer li a {
 #navDiv {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+
+#logo {
+  max-width: 4em;
+  height: auto;
+  margin-top: -2.3rem;
+  /* height: 85%; what DC added in */
+  position: absolute;
+}
+
+#basic-navbar-nav {
+  padding-left: 5%;
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  text-decoration: none;
 }
 
 a:hover {
@@ -125,6 +143,7 @@ a:hover {
 p {
   margin: 1.5rem 0;
   padding: 0 2.5rem;
+  font-size: 1.5rem;
 }
 
 .carousel-title{
@@ -145,13 +164,22 @@ p {
 }
 
 @media screen and (max-width: 414px) {
-  img {
-     height: ;
+  p {
+     font-size: 1.25rem;
    }
-  
-  
-  
   }
+
+  @media screen and (min-width: 768px) {
+    p {
+       font-size: 1.75rem;
+     }
+
+     #contact-div {
+      width: 90%;
+      padding-left: 5%;
+    }
+
+    }
 
 /* .carousel-subtext{
   font-size: 2rem;
@@ -175,6 +203,11 @@ p {
 .yellowBackground {
   /* background-color: #FCCA46; */
   background-color: #F3A712;
+}
+
+.contact-form {
+  width: 90%;
+  padding-left: 5%;
 }
 
 /* end of homepage */
