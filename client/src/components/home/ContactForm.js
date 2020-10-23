@@ -10,6 +10,7 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
+    //arguments('serviceId', 'templateId", 'userID')
     emailjs.sendForm('gmail', 'template_3v8s4zn', e.target, 'user_yomr6EhHGuD4HFwjIEobr')
       .then((result) => {
           console.log(result.text);
@@ -20,7 +21,7 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="yellowBackground py-5" style={{backgroundImage: '../../assets/oilseed.jpg'}}>
+    <div className="py-5" >
     <Card  border="dark" style={{ width: '40rem', margin: '2rem auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
         <Card.Header>Contact Us</Card.Header>
         <Card.Body>

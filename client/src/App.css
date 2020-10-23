@@ -8,8 +8,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-html,
-body {
+html, body {
   /* width: 100%; */
   margin: 0px;
   padding: 0px;
@@ -22,10 +21,10 @@ p {
   font-size: 1.5rem;
 }
 
-h1{
+/* h1{
   font-size: 3.5rem;
   font-weight: bold;
-}
+} */
 
 h2{
   font-size: 2.5rem;
@@ -119,11 +118,14 @@ a:hover {
 }
 
 /* End of Navbar */
-
 /* Homepage */
+p {
+  margin: 1.5rem 0;
+  padding: 0 2.5rem;
+}
 
-.carousel-title {
-  font-size: 5rem;
+.carousel-title{
+  font-size: 4rem;
   font-weight: 750;
   letter-spacing: 0.05em;
   padding: 2rem;
@@ -131,62 +133,39 @@ a:hover {
   text-align: center;
 }
 
-.carousel-subtext {
-  font-size: 2rem;
-  color: white;
+.carousel-centered {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 65%;
+  transform: translate(-50%, -50%);
 }
 
-.carousel-quote {
+/* .carousel-subtext{
+  font-size: 2rem;
+  color: white;
+} */
+
+.carousel-quote{
   font-size: 4rem;
   color: white;
 }
 
 .carousel-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
 }
 
 .carousel-img {
-  padding: 2rem 3rem;
+  padding: 2rem 3rem
 }
 
-
-/* End of Homepage */
-
-/* AboutUs*/
-
-#pamCard {
-  color: white;
-  border-radius: 1rem;
-  background-color: #1b1b3a;
-  padding: 2rem;
+.yellowBackground {
+  /* background-color: #FCCA46; */
+  background-color: #F3A712;
 }
 
-#pamPic {
-  border-radius: 0.75rem;
-  height: 375px;
-  margin-left: 1.5em;
-}
-
-.pamInfo {
-  font-size: 1.15em;
-  padding-left: 0;
-  padding-right: 2em;
-}
-
-.pamSocial {
-  display: flex;
-	justify-content: flex-end;
-  width: 100%;
-  align-content: space-between;
-}
-
-.pamSocial > div {
-  font-size: 1.15em;
-  margin: 0px 20px;
-}
-
-/* End of AboutUs */
+/* end of homepage */
 
 /* GetInvolved */
 
