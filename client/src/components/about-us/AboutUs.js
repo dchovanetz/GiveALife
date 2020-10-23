@@ -11,8 +11,8 @@ function AboutUs() {
     <div>
       <Card>
         <Card.Img height={575} src={about} alt="Silhouette" />
-        <Card.ImgOverlay style={{ padding: '0 12em' }}>
-          <Card.Text id='missText'><br /><br />
+        <Card.ImgOverlay style={{ padding: '7rem' }}>
+          <Card.Text className='carousel-center carousel-text'>
                 The goal of GIVE YOUR LIFE, DON'T TAKE IT is to expand the suicide prevention conversation to provide opportunities for <b>active giving</b> as a pathway to suicide prevention for men, women, teens, vets, and seniors who are experiencing an intense sense of loss, being overwhelmed, shame, and disconnection
             </Card.Text>
         </Card.ImgOverlay>

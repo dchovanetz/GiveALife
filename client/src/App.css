@@ -196,6 +196,10 @@ p {
       padding-left: 5%;
     }
 
+    #basic-navbar-nav {
+      padding-top: 3%;
+    }
+
     /* .body-text {
       padding: 2rem;
       text-align: center;
