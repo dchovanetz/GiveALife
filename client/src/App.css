@@ -184,6 +184,10 @@ p {
     padding: 0 1rem
   }
 
+  #basic-navbar-nav {
+    padding-top: 4%;
+  }
+
   }
 
   @media screen and (min-width: 768px) {
