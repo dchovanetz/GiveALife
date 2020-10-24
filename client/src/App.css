@@ -269,10 +269,10 @@ p {
   padding: 0 0 0 0;
 }
 
-.resourcesCardDeck {
-  /* border: 1px solid blue; */
-  width: 90%;
-  margin-bottom: 20px;
+.resourcesCardDeck{
+   /* border: 1px solid blue; */
+   width: 90%;
+   margin-bottom: 5rem !important;
 }
 
 .cardImg {
@@ -283,6 +283,18 @@ p {
 }
 
 .resourcesCard {
+  border: none;
+}
+
+.phoneNumber{
+  /* border: 1px solid blue; */
+  width: 90%;
+  margin-top: -1.5rem ;
+  /* border: 1px solid red; */
+  font-size: 20px;
+}
+
+.phone{
   border: none;
 }
 
