@@ -208,6 +208,11 @@ p {
     height: 350px;
   }
 
+  #g-image-text {
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+
   #carousel {
     height: 350px;
   }
