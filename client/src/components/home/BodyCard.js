@@ -9,26 +9,36 @@ function BodyCard(){
 <div>
 <div className="container body-text">
 
-<div className="container"  >
-    <iframe 
-        width="280" 
-        height="415" 
-        src="https://www.youtube.com/embed/Buo4cV_2vOY?rel=0&amp;modestbranding=1" 
-        frameborder="0" 
-        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; 
-        picture-in-picture" 
-        allowfullscreen>
-    </iframe>
-</div> 
-<p>My name is Pam Boyd.</p>
-<p>Several years ago, I experienced an avalanche of loss which sent me down a dark road of suicide. When you have experienced a loss of someone you love, something you cherished, or believe that your life is more burdensome than it is worth, taking your life might seem like a better option than living with the terrible pain. You or someone you know may have had a similar experience. </p>
-<p>When I faced this lose-lose situation, only one thought saved my life. That one thought was this: if I am going to take my life, why don’t I give it to somebody that needs it. That sent me to volunteering. My motto being, “If you’re too hopeless to fight for yourself, then do it for the next guy.” </p>
 
-<p><a className="text-info" href="/community">Find resources now.</a></p>
+<p>
+      Suicide claims approximately 48,000 lives each year in the United States. In the age group 10 to 34, it is the second leading cause of death and fourth leading cause of death from ages 35 to 54.<sup>1</sup> Research suggests that people with suicide ideation usually have two symptoms in common: a sense of being a burden to others and a profound sense of loneliness, alienation and isolation.<sup>2</sup> You or someone you know may have had a similar experience. 
+</p>
+
+<p><a className="text-info" href="/community">Find resources now.</a></p>  
+
+
+
+<div className="py-3 my-3" id="whatIf-div">
+    <p><strong>Some believe that they only have two options: 1) living with the terrible pain or 2) taking thier life. The 3rd option is give your life, don't take it.</strong></p>
+    
+</div>
+
+<p>What if people struggling with depression knew that therapists, psychiatrists, social workers, clergy, and organizations would help them step out of their private mental prisons into a “new life” offering the possibility of new perspective, meaning and connections? What if the depressed knew of the immediate availability of a third option other than staying and suffering unbearable agony, or leave the pain by expediting my own death?</p>
+
 <p>GIVE YOUR LIFE, DON'T TAKE IT is about giving access to anyone who is thinking about taking their life because of loss. Let the “doing” change the beliefs and actions. We need to grow awareness and build partnership. </p>
 <p><a className="text-info" href="/get-involved">Find out how you can help.</a></p>
 </div>
 
+<footer>
+    <ul>
+        <li>
+          <a href="National Institute of Mental Health: Suicide Statistic"><sup>1</sup>National Institute of Mental Health: Suicide Statistic</a>
+        </li>
+        <li>
+          <a href="https://www.icloud.com/iclouddrive/07e11STHpY1sThK7hNcVOESQg#White_Paper_Suicide_Prevention" target="_blank"><sup>2</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
+        </li>
+    </ul>
+</footer>
 
  
 </div> 
