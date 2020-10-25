@@ -9,8 +9,8 @@ function Founder(){
     <div className="body-text">
         <p><strong>GIVE YOUR LIFE, DON'T TAKE IT</strong> is a nonprofit that gives people experiencing pain and loss an alternative when life feels unlivable. Our approach specifically targets those who have lost hope due to external circumstances, versus those who may be intrinsically driven toward suicide by chemical imbalance, dependency, or chronic psychological issues. Expanding the suicide prevention conversation is essential to providing avenues for reciprocity and active giving as pathways to immediate usefulness and perspective.</p>
     </div>
-    <div className="container yellowBackground py-4" >
-        <h2>Why We Do It</h2>
+    <div className="container yellowBackground py-4 rounded" >
+        <h2 className="body-text">Why We Do It</h2>
         <Row className='mx-1 d-flex align-items-center'>
             <Col lg={3}>
             <iframe className="mb-3"

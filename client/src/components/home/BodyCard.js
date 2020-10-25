@@ -15,7 +15,7 @@ function BodyCard(){
 
 
 
-    <div className="py-3 my-3" id="whatIf-div">
+    <div className="py-3 my-3 rounded" id="whatIf-div">
         <p><strong>Some believe that they only have two options: 1) living with the terrible pain or 2) taking thier life. The 3rd option is give your life, don't take it.</strong></p>
         
     </div>

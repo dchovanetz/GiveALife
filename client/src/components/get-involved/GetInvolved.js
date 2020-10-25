@@ -8,8 +8,8 @@ import GetInvolvedImage from "./GetInvolvedImage"
 
 function GetInvolvedIntro() {
   return (
-<div className="body-text">
-  <p><strong>GIVE YOUR LIFE, DON’T TAKE IT</strong> expands the suicide prevention conversation to provide avenues for reciprocity and active giving as pathways to immediate usefulness and perspective for men, women, teens, vets, and seniors who stand on the suicidal trailheads of loss, feeling overwhelmed, shame, and disconnect. Studies support this strategy of providing a way for suffers to be active-givers versus passive-receivers to reduce suicidal depression and ideation.<sup>2</sup> </p>
+<div className="body-text mx-5">
+  <p><strong>GIVE YOUR LIFE, DON’T TAKE IT</strong> expands the suicide prevention conversation to provide avenues for reciprocity and active giving as pathways to immediate usefulness and perspective for men, women, teens, vets, and seniors who stand on the suicidal trailheads of loss, feeling overwhelmed, shame, and disconnect. Studies support this strategy of providing a way for suffers to be active-givers versus passive-receivers to reduce suicidal depression and ideation.<sup>1</sup> </p>
 
 
   <p>Obviously, breaking through suicidal despair is a daunting task. Yet, for those who hide their pain and intent, the odds of breaking through the fatal mental agony is nearly impossible. The simple redirection toward doing and giving will not stop suicide for every sufferer but will do so for such a significant number that it cannot be ignored. We need your help to accomplish our mission. 
@@ -19,10 +19,7 @@ function GetInvolvedIntro() {
   <footer>
     <ul>
       <li>
-        <a href="National Institute of Mental Health: Suicide Statistic"><sup>1</sup>National Institute of Mental Health: Suicide Statistic</a>
-      </li>
-      <li>
-        <a href="https://www.icloud.com/iclouddrive/07e11STHpY1sThK7hNcVOESQg#White_Paper_Suicide_Prevention" target="_blank"><sup>2</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
+        <a href="https://www.icloud.com/iclouddrive/07e11STHpY1sThK7hNcVOESQg#White_Paper_Suicide_Prevention" target="_blank"><sup>1</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
         </li>
     </ul>
   </footer>
@@ -36,7 +33,7 @@ function GetInvolvedIntro() {
 
 function GetInvolvedWaysTo() {
   return (
-    <div className="bg-dark white-text mx-4 mb-4 py-2">
+    <div className="bg-dark white-text mx-4 mb-4 py-3 rounded">
       <h1>Ways to Get Involved</h1>
         <div id='div-container'>
             <Row className="mt-3 d-flex align-items-center">

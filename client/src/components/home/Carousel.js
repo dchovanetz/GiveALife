@@ -11,11 +11,11 @@ import '../../App.css';
 function Slider() {
 
     return (
-    <div>
-  <Carousel style={{height: 550}}>
+  <div>
+  <Carousel id='carousel'>
   <Carousel.Item autoplay={ false } >
     <img
-      className='.img-fluid. max-width: 100% d-block w-100'
+      className='c-image resize d-block w-100'
       height = {550}
       src={first}
     />
@@ -26,34 +26,32 @@ x    </div>
 
   <Carousel.Item>
     <img
-      className='resize d-block w-100'
+      className='c-image resize d-block w-100'
       height = {550}
       src={second}
     />
       <div className="carousel-centered">
-    <p className="carousel-text">"The best way to find yourself is to
-      lose yourself in the service of others."</p>
+    <p className="carousel-text">"The best way to find yourself is to lose yourself in the service of others."</p>
     <p className="carousel-text d-flex justify-content-end">- Mahatma Gandhi </p> 
     </div>
   </Carousel.Item>
 
   <Carousel.Item>
     <img
-      className='resize d-block w-100'
+      className='c-image resize d-block w-100'
       height = {550}
       src={third}
     />
 <div className="carousel-centered">
-    <p className="carousel-text"><b>If you are asking the question: </b> Would it be better if I wasn’t here?</p>
-      <p className="carousel-text"><b>The answer is: </b> No one can take your place. People you haven’t met yet or who are not even born need you. </p>
+    <p className="carousel-text"><strong>If you are asking the question: </strong> Would it be better if I wasn’t here?</p>
+      <p className="carousel-text"><strong>The answer is: </strong> No one can take your place. People you haven’t met yet or who are not even born need you. </p>
     </div>
   </Carousel.Item>
 
   <Carousel.Item>
     <img
-      class='resize'
       height = {550}
-      className="d-block w-100 img-responsive"
+      className="c-image resize d-block w-100"
       src={fourth}
     />
     <div className="carousel-centered">

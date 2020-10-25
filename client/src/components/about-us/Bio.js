@@ -5,7 +5,7 @@ import pam from '../../assets/pam-boyd.jpg';
 
 function Bio(){
     return(
-        <div className="container " id='pamCard'>
+        <div className="container mb-3" id='pamCard'>
             <div className="row pt-1 d-flex align-items-center">
                 <div className="col-4">
                 <img id='pamPic' src={pam}/>
