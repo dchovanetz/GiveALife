@@ -24,7 +24,7 @@ export default function ContactUs() {
     <div className='container mb-4'>
     <Card  border="dark" style={{ width: '90%', margin: 'auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
         <Card.Body>
-            <Form className="contact-form" onSubmit={sendEmail}>
+            <Form id="contact-form" onSubmit={sendEmail}>
 
                 <Form.Group controlId="formBasicEmail"> <Form.Text style={{fontSize:'1.25rem'}}>
                     Contact Us

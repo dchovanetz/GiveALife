@@ -21,6 +21,10 @@ p {
   font-size: 1.5rem;
 }
 
+h1 {
+  text-align: center;
+}
+
 /*make images darker*/
 .darker {
   filter: brightness(73%)
@@ -81,9 +85,6 @@ h3{
 
 
 /* get involved page */
-#mapImage {
-  width: 875px;
-}
 
 footer li, figcaption {
   font-size:0.75em;
@@ -97,11 +98,17 @@ footer li a {
 #whatIf-div {
   background-color: #1b1b3a;
   color: white;
+  width: 90%;
+  margin: auto;
 }
 
 .white-text {
   color: white
 }
+
+.row-image {
+  width: 80%;
+} 
 
 /* end og get inovlved page */
 
@@ -235,22 +242,18 @@ p {
   background-color: #F3A712;
 }
 
-.contact-form {
+#contact-form {
   width: 90%;
   padding-left: 5%;
 }
 
-/* end of homepage */
-
-/* GetInvolved */
 
 
-#GetInvolvedPage {
-  margin: 7rem auto 5rem auto;
-  width: 80vw
-}
 
-/* End of GetInvolved */
+
+
+
+
 
 /* Resources */
 
@@ -311,19 +314,4 @@ p {
 
 /* End of Resources */
 
-/* Mission  */
-#missTitle {
-  position: relative;
-  text-align: center;
-  font-size: 50px;
-  color: black;
-}
 
-#missText {
-  position: relative;
-  text-align: center;
-  font-size: 40px;
-  color: white;
-}
-
-/* End of Mission */

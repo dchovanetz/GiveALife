@@ -1,9 +1,7 @@
 import React from "react";
 import "../../App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, CardDeck } from "react-bootstrap";
-import Mission from "../layout/Mission";
-import Donate from "../../assets/GIDonate.jpg";
+import { Container, Row, Col } from "react-bootstrap";
 import Partner from "../../assets/GIPartner.jpg";
 import Event from "../../assets/GIEvent.jpg";
 import GetInvolvedImage from "./GetInvolvedImage"
@@ -11,12 +9,7 @@ import GetInvolvedImage from "./GetInvolvedImage"
 function GetInvolvedIntro() {
   return (
 <div className="body-text">
-      {/* <figure> 
-      <img id="mapImage" src={map} alt='map illustrates the suicide rates of the US in 2018'/>
-      <figcaption>
-      Figure shows a map of the United States with each state’s age-adjusted  suicide rate in 2018 indicated by color.<sup>1</sup>
-      </figcaption>
-      </figure> */}
+
       <p>
       Suicide claims approximately 48,000 lives each year in the United States. In the age group 10 to 34, it is the second leading cause of death and fourth leading cause of death from ages 35 to 54.<sup>1</sup> Research suggests that people with suicide ideation usually have two symptoms in common: a sense of being a burden to others and a profound sense of loneliness, alienation and isolation.<sup>2</sup> You or someone you know may have had a similar experience. 
       </p>
@@ -50,43 +43,33 @@ function GetInvolvedIntro() {
 
 function GetInvolvedWaysTo() {
   return (
-    <div className="bg-dark p-4">
-      <h2 class="white-text">Ways to Get Involved</h2>
-
-      <CardDeck>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Event} />
-          <Card.Body className="yellowBackground">
-            <Card.Title>Host an Event</Card.Title>
-            <Card.Text>
-              Spread the word about suicide prevention and help grow community
-              awareness.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Partner} />
-          <Card.Body className="yellowBackground">
-            <Card.Title>Partner with Us</Card.Title>
-            <Card.Text>
-              Help individuals struggling with suicidal thoughts find a purpose
+    <div className="bg-dark p-4 white-text">
+      <h1>Ways to Get Involved</h1>
+        <Container>
+            <Row className="py-4">
+              <Col>
+                <img className="row-image"src={Event} />
+              </Col>
+              <Col clasName= "d-flex align-items-center">
+                <h2 className="pt-3">Host an Event</h2>
+                <p> Spread the word about suicide prevention and help grow community
+              awareness.</p>
+              </Col>
+            </Row>
+            <Row>
+              <Col>
+              <img className="row-image" src={Partner} />
+              </Col>
+              <Col >
+              <h2 className="pt-3">Take Volunteers</h2>
+                <p>
+                Help individuals struggling with suicidal thoughts find a purpose
               and second chance at life.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        {/* <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Donate} />
-          <Card.Body className="yellowBackground">
-            <Card.Title>Donate</Card.Title>
-            <Card.Text>
-              No contribution is too small. Donations support events and
-              educational materials.
-            </Card.Text>
-          </Card.Body>
-        </Card> */}
-      </CardDeck>
+                </p>
+              </Col>
+            </Row>
+            <p className="d-flex justify-content-center"><a className="text-info" href="/#contact-form">Contact Us</a></p>
+      </Container>
     </div>
   );
 }
