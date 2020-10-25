@@ -92,7 +92,7 @@ h3{
 /* get involved page */
 
 footer li {
-  font-size:1em;
+  font-size:1.25em;
   list-style-type: none;
 }
 
@@ -146,6 +146,7 @@ footer li a {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 #logo {
@@ -156,8 +157,9 @@ footer li a {
   position: absolute;
 }
 
-#basic-navbar-nav {
+#basic-navbar {
   padding-left: 5%;
+  /* font-size: 1rem; */
 }
 
 .nav-link:hover {

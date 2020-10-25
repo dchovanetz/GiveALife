@@ -12,12 +12,12 @@ function Navb() {
     <Navbar bg="dark" variant="dark" expand="lg" id="NavB">
       <Navbar.Brand >
         <img id="logo"
-        className="img-fluid max-width: 10%" 
+        className="img-fluid" 
         src={logo}
         />
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse id="basic-navbar-nav">
+      <Navbar.Collapse id="basic-navbar">
         <Nav className="mr-auto">
           <Nav.Link className='nav-link' as={Link} to="/">
             Home
@@ -31,9 +31,9 @@ function Navb() {
           {/* <Nav.Link as={Link}  to="/community">
             Community
           </Nav.Link> */}
-          <Nav.Link as={Link}  to="/donate">
+          {/* <Nav.Link as={Link}  to="/donate">
             Donate
-          </Nav.Link>
+          </Nav.Link> */}
         </Nav>
         <Form inline>
           {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
