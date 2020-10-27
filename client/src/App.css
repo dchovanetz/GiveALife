@@ -265,6 +265,24 @@ p {
   img.card-img-top.cardImg {
     height: 150px;
   }
+  /*About Us*/
+  div.card-img-overlay {
+    margin: -16% 0 0 -6%;
+    padding: 0 0;
+    width: 150%;
+    font-weight: 750;
+  }
+
+  div.card-img-overlay p {
+    margin: 0 0  0 -12%;
+    padding: 0 10px;
+    width: 90%;
+    font-weight: 750;
+  }
+
+  img.card-img {
+    height: 350px
+  }
 
   }
 
@@ -286,6 +304,33 @@ p {
       font-size: 1.5rem;
       width: 45%
     }
+    /*About Us*/
+    div.card-img-overlay p {
+      margin: 0;
+      padding: 0 0;
+      width: 110%;
+      font-weight: 550;
+    }
+
+    div.col-lg-3, div.col-lg-4 {
+      display: flex;
+      justify-content: center;
+    }
+
+    p.div-p {
+      text-align: center;
+      font-size: 1.75rem;
+    }
+
+   div.col-lg-8 {
+     text-align: center;
+     margin-top: 1rem;
+     font-size: 1.5rem;
+   }
+
+   p.pamInfo{
+     padding: 0;
+   }
 
     }
 
