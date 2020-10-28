@@ -344,9 +344,9 @@ p {
       padding-left: 5%;
     }
 
-    /* #navDiv {
-      padding-top: 70%;
-    } */
+    a.nav-link:first-child {
+      padding-top: 10%;
+    }
 
     a.phoneNumber {
       font-size: 1.5rem;

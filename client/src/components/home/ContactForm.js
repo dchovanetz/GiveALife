@@ -11,7 +11,7 @@ export default function ContactUs() {
     e.preventDefault();
 
     //arguments('serviceId', 'templateId", 'userID')
-    emailjs.sendForm('gmail', 'template_3v8s4zn', e.target, 'user_yomr6EhHGuD4HFwjIEobr')
+    emailjs.sendForm('Pammy Boyd', 'template_btpv@vb', e.target, 'user_5a4NESBHOs5w2ZSh96bhJ')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
