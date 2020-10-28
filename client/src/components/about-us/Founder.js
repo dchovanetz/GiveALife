@@ -12,7 +12,7 @@ function Founder(){
     <div className="container yellowBackground py-4 rounded" >
         <h2 className="body-text">Why We Do It</h2>
         <Row className='mx-1 d-flex align-items-center'>
-            <Col lg={3}>
+            <Col lg={4}>
             <iframe className="mb-3"
                 width="280" 
                 height="455" 

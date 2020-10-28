@@ -86,6 +86,7 @@ h3{
   justify-content: flex-end;
 }
 
+
 /* end of about us page */
 
 
@@ -270,26 +271,71 @@ p {
     margin: -16% 0 0 -6%;
     padding: 0 0;
     width: 150%;
-    font-weight: 750;
   }
 
   div.card-img-overlay p {
     margin: 0 0  0 -12%;
     padding: 0 10px;
     width: 90%;
-    font-weight: 750;
+    font-weight: 700;
   }
 
   img.card-img {
     height: 350px
   }
 
+  div.body-text p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
   }
 
-  @media screen and (min-width: 768px) {
+  div.col-lg-3, div.col-lg-4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  p.pamInfo, p.div-p {
+    padding: 0;
+    font-size: 1.2rem
+  }
+
+  h2.body-text, h3 {
+    font-size: 1.5rem
+  }
+
+  div.text-left.col {
+    padding: 1px;
+  }
+
+  div.yellowBackground {
+    width: 120%;
+    margin-left: -10%
+  }
+
+  #pamCard {
+    width: 90%;
+  }
+
+  }
+
+  @media screen and (max-width: 768px) {
     p {
        font-size: 1.75rem;
+       text-align: center;
      }
+
+     div.col-lg-8 {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+    }
+
+  @media screen and (min-width: 768px) {
+    /* p {
+       font-size: 1.75rem;
+       text-align: center;
+     } */
 
      #contact-div {
       width: 90%;
@@ -307,9 +353,10 @@ p {
     /*About Us*/
     div.card-img-overlay p {
       margin: 0;
-      padding: 0 0;
-      width: 110%;
-      font-weight: 550;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+      font-weight: 700;
     }
 
     div.col-lg-3, div.col-lg-4 {
@@ -317,16 +364,12 @@ p {
       justify-content: center;
     }
 
-    p.div-p {
+    /* p.div-p {
       text-align: center;
       font-size: 1.75rem;
-    }
+    } */
 
-   div.col-lg-8 {
-     text-align: center;
-     margin-top: 1rem;
-     font-size: 1.5rem;
-   }
+  
 
    p.pamInfo{
      padding: 0;
