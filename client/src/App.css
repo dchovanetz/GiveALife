@@ -21,7 +21,7 @@ p {
   font-size: 1.25rem;
 }
 
-h1 {
+h2 {
   text-align: center;
 }
 
@@ -30,16 +30,6 @@ h1 {
   filter: brightness(73%)
 }
 
-
-/* h1{
-  font-size: 3.5rem;
-  font-weight: bold;
-} */
-
-/* h2{
-  font-size: 2.5rem;
-  font-weight: bold;
-}*/
 
 h3{
   font-size: 1.5em;
@@ -315,6 +305,21 @@ p {
   #pamCard {
     width: 90%;
   }
+  /*get involved*/
+  #g-image-text p {
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+   }
+
+   div.card-img-overlay {
+     margin: -16% 0 0 -8.5%
+   }
+
+   p.card-text {
+     font-size: 1.25rem;
+   }
 
   }
 
@@ -332,10 +337,7 @@ p {
   }
 
   @media screen and (min-width: 768px) {
-    /* p {
-       font-size: 1.75rem;
-       text-align: center;
-     } */
+
 
      #contact-div {
       width: 90%;
@@ -364,16 +366,17 @@ p {
       justify-content: center;
     }
 
-    /* p.div-p {
-      text-align: center;
-      font-size: 1.75rem;
-    } */
-
-  
-
    p.pamInfo{
      padding: 0;
    }
+   /*get involved*/
+   #g-image-text, #g-image-text p {
+     font-size: 1.55rem;
+   }
+
+   #g-image-text p {
+   margin-top: 1rem;
+  }
 
     }
 

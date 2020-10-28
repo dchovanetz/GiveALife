@@ -2,7 +2,8 @@ import React from "react";
 import "../../App.css";
 import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Partner from "../../assets/GIPartner.jpg";
+import Volunteer from "../../assets/GIPartner.jpg";
+import Partner from "../../assets/huddle.jpg"
 import Event from "../../assets/GIEvent.jpg";
 import GetInvolvedImage from "./GetInvolvedImage"
 
@@ -34,28 +35,35 @@ function GetInvolvedIntro() {
 function GetInvolvedWaysTo() {
   return (
     <div className="bg-dark white-text mx-4 mb-4 py-3 rounded">
-      <h1>Ways to Get Involved</h1>
+      <h2>Ways to Get Involved</h2>
         <div id='div-container'>
-            <Row className="mt-3 d-flex align-items-center">
-              <Col>
-                <img className="row-image"src={Event} />
+            <Row className="mt-3 d-flex align-items-stretch">
+              <Col lg={4} sm= {12}>
+              {/* <div class="card" style="width: 18rem;"> */}
+              <div class="card-body">
+              <img className="row-image"src={Event} />
+                <h3 class="card-title">Host An Event</h3>
+                <p class="card-text">Spread the word about suicide prevention and help grow community awareness.</p>
+                </div>
               </Col>
-              <Col clasName= "d-flex align-items-center">
-                <p className="pt-3 d-text"><strong>Host an Event</strong></p>
-                <p className="d-text"> Spread the word about suicide prevention and help grow community awareness.</p>
+              <Col lg={4} sm={12}>
+              {/* <div class="card" style="width: 18rem;"> */}
+              <div class="card-body">
+              <img className="row-image"src={Volunteer} />
+                <h3 class="card-title">Need Volunteers?</h3>
+                <p class="card-text">Provide opportunities for active giving.</p>
+                </div>
               </Col>
-              <Col>
-              <img className="row-image" src={Partner} />
-              </Col>
-              <Col >
-                <p className="pt-3 d-text"><strong>Need Volunteers?</strong></p>
-                <p className="d-text">Help individuals struggling with suicidal thoughts find a purpose
-                and second chance at life.</p>
-              </Col>
+              <Col lg={4} sm={12}>
+              {/* <div class="card" style="width: 18rem;"> */}
+              <div class="card-body">
+              <img className="row-image"src={Partner} />
+                <h3 class="card-title">Partner With Us</h3>
+                <p class="card-text">Help those struggling with suicidal thoughts find a purpose and second chance at life. </p>
+                </div>
+              </Col>    
             </Row>
-            <Row>
-             
-            </Row>
+
             <p className="d-flex justify-content-center"><a className="text-info" href="/#contact-form">Contact Us</a></p>
       </div>
     </div>
