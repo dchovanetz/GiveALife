@@ -32,7 +32,7 @@ function BodyCard(){
 <footer>
     <ul>
         <li>
-          <a href="National Institute of Mental Health: Suicide Statistichttps://www.nimh.nih.gov/health/statistics/suicide.shtml#part_154968"><sup>1</sup>National Institute of Mental Health: Suicide Statistic</a>
+          <a href="https://www.nimh.nih.gov/health/statistics/suicide.shtml#part_154968"><sup>1</sup>National Institute of Mental Health: Suicide Statistic</a>
         </li>
         <li>
           <a href="https://www.icloud.com/iclouddrive/07e11STHpY1sThK7hNcVOESQg#White_Paper_Suicide_Prevention" target="_blank"><sup>2</sup>GIVE YOUR LIFE, DON'T TAKE IT: White Paper (click to download)</a>
