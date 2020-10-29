@@ -37,7 +37,7 @@ function Navb() {
         </Nav>
         <Form inline>
           {/* <FormControl type="text" placeholder="Search" className="mr-sm-2" /> */}
-          <Button as = {Link} to ="/community" variant="info">Find Help</Button>
+          <Button as = {Link} to ="/find-help" variant="info">Find Help</Button>
         </Form>
       </Navbar.Collapse>
     </Navbar>
