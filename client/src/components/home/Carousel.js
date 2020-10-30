@@ -20,7 +20,7 @@ function Slider() {
       src={first}
     />
     <div className="carousel-centered">
-    <p className="carousel-title">GIVE YOUR LIFE, DON'T TAKE IT</p>
+    <p className="carousel-title">GIVE YOUR LIFE. DON'T TAKE IT.</p>
 x    </div>
   </Carousel.Item>
 

@@ -13,7 +13,7 @@ function AboutUs() {
         <Card.Img height={575} src={about} />
         <Card.ImgOverlay style={{ padding: '7rem' }}>
           <Card.Text className='mt-5 carousel-center carousel-text'>
-                Our mission is to expand the suicide prevention conversation to provide opportunities for active giving as a pathway to suicide prevention for men, women, teens, vets, and seniors who are experiencing an intense sense of loss, being overwhelmed, shame, and disconnection.
+          Our mission is to expand the suicide prevention conversation to provide opportunities for active giving as a pathway to suicide prevention for men, women, teens, vets, and seniors who are experiencing an intense sense of loss, overwhelm, shame, or disconnect.
             </Card.Text>
         </Card.ImgOverlay>
       </Card>
