@@ -36,6 +36,12 @@ h3{
   font-weight: bold;
 } 
 
+/* img {
+  overflow: hidden;
+  /* max-width: inherit; 
+  width: auto;
+} */
+
 
 .centered {
   position: absolute;
@@ -341,16 +347,21 @@ p {
     }
   }
 
+/* navbar hamburger move down*/
+@media screen and (max-width: 991px) {
+    a.nav-link:first-child {
+      padding-top: 6%;
+    }
+
+}
+
+
   @media screen and (min-width: 768px) {
 
 
      #contact-div {
       width: 90%;
       padding-left: 5%;
-    }
-
-    a.nav-link:first-child {
-      padding-top: 10%;
     }
 
     a.phoneNumber {
