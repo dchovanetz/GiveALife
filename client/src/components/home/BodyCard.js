@@ -2,6 +2,9 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Card, CardDeck, Row, Col} from 'react-bootstrap';
 import '../../App.css';
+import { Link, Route } from "react-router-dom";
+import GetInvolved from "../get-involved/GetInvolved";
+import FindHelp from "../community/Resources";
 
 function BodyCard(){
     return(
