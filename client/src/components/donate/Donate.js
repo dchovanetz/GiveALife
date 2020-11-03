@@ -7,8 +7,8 @@ import Mission from '../layout/Mission'
 function Donate() {
     return(
         <div>
+            Nothing here
 
-            <Mission/>
         </div>
     )
 

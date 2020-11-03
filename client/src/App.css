@@ -8,8 +8,7 @@ body {
   font-family: "Source Sans Pro", sans-serif;
 }
 
-html,
-body {
+html, body {
   /* width: 100%; */
   margin: 0px;
   padding: 0px;
@@ -19,23 +18,29 @@ body {
 p {
   margin: 1.5rem 0;
   padding: 0 2.5rem;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
 }
 
-h1{
-  font-size: 3.5rem;
-  font-weight: bold;
+h2 {
+  text-align: center;
 }
 
-h2{
-  font-size: 2.5rem;
-  font-weight: bold;
+/*make images darker*/
+.darker {
+  filter: brightness(73%)
 }
+
 
 h3{
   font-size: 1.5em;
   font-weight: bold;
-}
+} 
+
+/* img {
+  overflow: hidden;
+  /* max-width: inherit; 
+  width: auto;
+} */
 
 
 .centered {
@@ -46,21 +51,123 @@ h3{
 }
 
 .body-text {
-  padding: 2rem;
+  /* padding: 2rem; */
   text-align: center;
 }
 /* End of Whole Doc */
 
-/* Navbar */
+/* About Us page*/
+#pamCard{
+  color: white;
+  border-radius: 1rem;
+  background-color: #1b1b3a;
+  padding: 2rem
+}
 
-#NavB {
+#pamPic{
+  border-radius: 0.75rem;
+  height: 375px;
+  width: 100ox;
+  margin-left: 1.5em;
+}
+
+.pamInfo{
+  font-size: 1.15em;
+  padding-left: 0;
+  padding-right: 2em;
+}
+
+#pamSocial {
+  display: flex;
+  justify-content: flex-end;
+}
+
+
+/* end of about us page */
+
+
+/* get involved page */
+
+footer li {
+  font-size:1.25em;
+  list-style-type: none;
+}
+
+footer li a {
+  color: darkgray;
+}
+
+#whatIf-div {
+  background-color: #1b1b3a;
+  color: white;
+  width: 90%;
+  margin: auto;
+}
+
+.white-text {
+  color: white
+}
+
+.row-image {
+  width: 100%;
+  height: 65%;
+} 
+
+/* .div-p {
+  font-size: 1.6rem;
+} */
+
+blockquote footer {
+  text-align: right;
+  padding-right: 2%;
+}
+
+#div-container {
+  width: 90%;
+  margin: auto;
+}
+
+.d-text {
+  font-size: 1.25rem;
+}
+
+/* end of get inovlved page */
+
+
+
+#NavB{
   position: absolute;
   top: 1rem;
-  left: 1.2em;
   z-index: 2;
   width: 97%;
+  border-radius: .5rem;
+  margin-top: 1.5%
+ /* border-radius: 1rem; */
+}
+
+#navDiv {
+  display: flex;
   justify-content: center;
-  border-radius: 1rem;
+  align-items: center;
+}
+
+#logo {
+  max-width: 6em;
+  height: auto;
+  margin-top: -3.3rem;
+  /* height: 85%; what DC added in */
+  position: absolute;
+}
+
+#basic-navbar {
+  padding-left: 10%;
+  font-size: 1.5rem;
+
+}
+
+.nav-link:hover {
+  font-weight: 600;
+  text-decoration: none;
 }
 
 a:hover {
@@ -69,11 +176,19 @@ a:hover {
 }
 
 /* End of Navbar */
-
 /* Homepage */
+p {
+  /* margin: 1.5rem 0; */
+  padding: 0 4.5rem 0 4.5rem;
+  font-size: 1.5rem;
+}
 
-.carousel-title {
-  font-size: 5rem;
+#carousel {
+  height: 550px;
+}
+
+.carousel-title{
+  font-size: 3.5rem;
   font-weight: 750;
   letter-spacing: 0.05em;
   padding: 2rem;
@@ -81,77 +196,119 @@ a:hover {
   text-align: center;
 }
 
-.carousel-subtext {
-  font-size: 2rem;
-  color: white;
+.carousel-centered {
+  position: absolute;
+  top: 48%;
+  left: 50%;
+  width: 65%;
+  transform: translate(-50%, -50%);
 }
 
-.carousel-quote {
+
+  @media screen and (max-width: 768px) {
+    p {
+       font-size: 1.75rem;
+       text-align: center;
+     }
+
+     div.col-lg-8 {
+      text-align: center;
+      margin-top: 1rem;
+      font-size: 1.5rem;
+    }
+  }
+
+/* navbar hamburger move down*/
+@media screen and (max-width: 991px) {
+    a.nav-link:first-child {
+      padding-top: 6%;
+    }
+
+    #NavB{
+      margin-top: 3.25%
+     /* border-radius: 1rem; */
+    }
+
+}
+
+
+  @media screen and (min-width: 768px) {
+
+
+     #contact-div {
+      width: 90%;
+      padding-left: 5%;
+    }
+
+    a.phoneNumber {
+      font-size: 1.5rem;
+      width: 45%
+    }
+    /*About Us*/
+    div.card-img-overlay p {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+      font-weight: 700;
+    }
+
+    div.col-lg-3, div.col-lg-4 {
+      display: flex;
+      justify-content: center;
+    }
+
+   p.pamInfo{
+     padding: 0;
+   }
+   /*get involved*/
+   #g-image-text, #g-image-text p {
+     font-size: 1.55rem;
+   }
+
+   #g-image-text p {
+   margin-top: 1rem;
+  }
+
+    }
+
+/* .carousel-subtext{
+  font-size: 2rem;
+  color: white;
+} */
+
+/*home page */
+.carousel-quote{
   font-size: 4rem;
   color: white;
+  margin-top: 50%;
 }
 
 .carousel-text {
-  font-size: 2.5rem;
+  font-size: 2rem;
   color: white;
 }
 
 .carousel-img {
-  padding: 2rem 3rem;
+  padding: 2rem 3rem
 }
 
-
-/* End of Homepage */
-
-/* AboutUs*/
-
-#aboutQuote {
-  font-size: 3rem;
-  color: white;
+.yellowBackground {
+  /* background-color: #FCCA46; */
+  background-color: #F3A712;
 }
 
-#aboutAuthor {
-  font-size: 2rem;
-  color: white;
+#contact-form {
+  width: 90%;
+  padding-left: 5%;
 }
 
-#pamCard {
-  color: white;
-  border-radius: 1rem;
-  background-color: #1b1b3a;
-  padding: 2rem;
-}
-
-#pamPic {
-  border-radius: 0.75rem;
-  height: 375px;
-  margin-left: 1.5em;
-}
-
-.pamInfo {
-  font-size: 1.15em;
-  padding-left: 0;
-  padding-right: 2em;
-}
-
-/* End of AboutUs */
-
-/* GetInvolved */
-
-
-#GetInvolvedPage {
-  margin: 7rem auto 5rem auto;
-  width: 80vw
-}
-
-/* End of GetInvolved */
 
 /* Resources */
 
 .resourcesTitle {
   text-align: center;
-  color: #574f70;
-  margin-bottom: 2rem;
+  color: #1b1b3a;
 }
 
 .resourcesMain {
@@ -165,8 +322,18 @@ a:hover {
 
 .resourcesCardDeck{
    /* border: 1px solid blue; */
-   width: 90%;
-   margin-bottom: 5rem !important;
+   width: 100%;
+   margin: 0 0 0 0!important;
+}
+
+.black-text a {
+  color: black;
+  font-size: 1.15rem;
+  height: 3%;
+}
+
+.black-text:hover a {
+  font-weight: 600;
 }
 
 .cardImg {
@@ -178,46 +345,180 @@ a:hover {
 
 .resourcesCard {
   border: none;
+  height: 30%;
 }
 
 .phoneNumber{
-  /* border: 1px solid blue; */
-  width: 90%;
-  margin-top: -1.5rem ;
-  /* border: 1px solid red; */
-  font-size: 20px;
+  font-size: 1.5rem;
+  width: 30%;
+  margin: auto auto;
+  margin-bottom: 2rem;
+  background-color: #1b1b3a;
+  color: white;
 }
 
-.phone{
-  border: none;
+.phoneNumber:hover {
+  font-weight: 600;
+  color: white
 }
 
-.hovereffect img {
-  display: block;
-  position: relative;
-  /* -webkit-transition: all 0.4s; */
-  transition: all 0.35s;
-}
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> master
 .hovereffect:hover {
   filter: brightness(0.7);
 }
 
 /* End of Resources */
+/* @media screen and (min-width: 280px) {
 
-/* Mission  */
-#missTitle {
-  position: relative;
-  text-align: center;
-  font-size: 50px;
-  color: black;
+  div.card-img-overlay p {
+    font-weight: 700;
+    font-size: 13rem;
+ 
+  }
+
+} */
+
+@media screen and (max-width: 388px) {
+  /*About Us*/
+  /* div.card-img-overlay {
+    margin: -160% 0 0 -6%;
+    padding: 0 500;
+  } */
+
+  div.card-img-overlay p {
+    font-weight: 700;
+    font-size: 1rem;
+  }
+
 }
 
-#missText {
-  position: relative;
-  text-align: center;
-  font-size: 40px;
-  color: rgb(197, 185, 185);
-}
+@media screen and (max-width: 440px) {
+  
+  img.c-image {
+    height: 350px;
+  }
 
-/* End of Mission */
+  #g-image-text {
+    margin-top: 5%;
+    font-size: 1rem;
+  }
+
+  #carousel {
+    height: 350px;
+  }
+  
+  p.carousel-text {
+    font-size: 1.25rem;
+  }
+
+  .carousel-centered {
+    margin-top: 10%;
+  }
+
+  .carousel-title {
+    font-size: 2rem;
+  }
+  
+  p {
+     font-size: 1.2rem;
+     padding: 0;
+   }
+
+   h3{
+    font-size: 1.2em;
+    font-weight: bold;
+  } 
+
+  #whatIf-div {
+    padding: 0 1rem
+  }
+
+  #logo {
+    margin-top: -2.5rem;
+    max-width: 4em;
+  }
+
+  /*resources*/
+
+  a.phoneNumber {
+    font-size: 1.15rem;
+    width: 65%
+  }
+
+  div.resourcesCard {
+    width: 65%;
+    margin: auto auto
+  }
+
+  img.card-img-top.cardImg {
+    height: 150px;
+  }
+  /*About Us*/
+  div.card-img-overlay {
+    margin: -16% 0 0 -6%;
+    padding: 0 0;
+    width: 150%;
+  }
+
+  div.card-img-overlay p {
+    margin: 0 0  0 -12%;
+    padding: 0 10px;
+    width: 90%;
+    font-weight: 700;
+  }
+
+  img.card-img {
+    height: 350px
+  }
+
+  div.body-text p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+  }
+
+  div.col-lg-3, div.col-lg-4 {
+    display: flex;
+    justify-content: center;
+  }
+
+  p.pamInfo, p.div-p {
+    padding: 0;
+    font-size: 1.2rem
+  }
+
+  h2.body-text, h3 {
+    font-size: 1.5rem
+  }
+
+  div.text-left.col {
+    padding: 1px;
+  }
+
+  div.yellowBackground {
+    width: 120%;
+    margin-left: -10%
+  }
+
+  #pamCard {
+    width: 90%;
+  }
+  /*get involved*/
+  #g-image-text p {
+    text-align: right;
+    font-size: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+   }
+
+   div.card-img-overlay {
+     margin: -16% 0 0 -8.5%
+   }
+
+   p.card-text {
+     font-size: 1.25rem;
+   }
+  }

@@ -1,100 +1,79 @@
 import React from "react";
 import "../../App.css";
+import { Container, Row, Col } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.min.css";
-import { Card, CardDeck } from "react-bootstrap";
-import Mission from "../layout/Mission";
-import Donate from "../../assets/GIDonate.jpg";
-import Partner from "../../assets/GIPartner.jpg";
+import Volunteer from "../../assets/GIPartner.jpg";
+import Partner from "../../assets/huddle.jpg"
 import Event from "../../assets/GIEvent.jpg";
+import GetInvolvedImage from "./GetInvolvedImage"
 
 function GetInvolvedIntro() {
   return (
-    <div>
-      <h1>Ways To Get Involved</h1>
-      <p  class="GetParagraph">
-        The <strong>GIVE YOUR LIFE. DON’T TAKE IT</strong> approach targets
-        those who have lost hope due to external circumstances. Obviously,
-        breaking through suicidal despair is a daunting task. Yet, for those who
-        hide their pain and intent, the odds of breaking through the fatal
-        mental agony is nearly impossible.
-      </p>
-    </div>
+<div className="body-text mx-5">
+  <p><strong>GIVE YOUR LIFE. DON’T TAKE IT.</strong> expands the suicide prevention conversation to provide avenues for reciprocity and active giving as pathways to immediate usefulness and perspective for men, women, teens, vets, and seniors who stand on the suicidal trailheads of loss, feeling overwhelmed, shame, and disconnect. Studies support this strategy of providing a way for suffers to be active-givers versus passive-receivers to reduce suicidal depression and ideation.<sup>1</sup> </p>
+
+
+  <p>Obviously, breaking through suicidal despair is a daunting task. Yet, for those who hide their pain and intent, the odds of breaking through the fatal mental agony is nearly impossible. The simple redirection toward doing and giving will not stop suicide for every sufferer but will do so for such a significant number that it cannot be ignored. We need your help to accomplish our mission.</p>   
+  
+  
+  <footer>
+    <ul>
+      <li>
+        <a href="https://www.icloud.com/iclouddrive/07e11STHpY1sThK7hNcVOESQg#White_Paper_Suicide_Prevention" target="_blank"><sup>1</sup>GIVE YOUR LIFE. DON'T TAKE IT. White Paper (click to download)</a>
+        </li>
+    </ul>
+  </footer>
+
+
+
+</div>
   );
 }
 
-function GetInvolvedWhatIf() {
-  return (
-    <section class="GetParagraph">
-      <h2 class="GetInvolvedSectionTitle">But what if people who are depressed...</h2>
-
-      <p>
-      <strong>knew</strong> of the immediate availability of a third option?
-      </p>
-
-      <p>
-      <strong>escaped</strong> their mental prisons by obtaining purpose through service?
-      </p>
-
-      <p>
-      <strong>contributed</strong> their skills and talents to a well matched non profit?
-      </p>
-
-      <p>
-      <strong>received</strong>  financial support from organizations to allow them to access these opportunities?
-      </p>
-
-    </section>
-  );
-}
 
 function GetInvolvedWaysTo() {
   return (
-    <section>
-      <h2 class="GetInvolvedSectionTitle">How can you help?</h2>
+    <div className="bg-dark white-text mx-4 mb-4 py-3 rounded">
+      <h2>Ways to Get Involved</h2>
+        <div id='div-container'>
+            <Row className="mt-3 d-flex align-items-stretch">
+              <Col lg={4} sm= {12}>
+              {/* <div class="card" style="width: 18rem;"> */}
+              <div class="card-body">
+              <img className="row-image"src={Event} />
+                <h3 class="card-title">Host An Event</h3>
+                <p class="card-text">Spread the word about suicide prevention and help grow community awareness.</p>
+                </div>
+              </Col>
+              <Col lg={4} sm={12}>
+              {/* <div class="card" style="width: 18rem;"> */}
+              <div class="card-body">
+              <img className="row-image"src={Volunteer} />
+                <h3 class="card-title">Need Volunteers?</h3>
+                <p class="card-text">Provide opportunities for active giving.</p>
+                </div>
+              </Col>
+              <Col lg={4} sm={12}>
+              {/* <div class="card" style="width: 18rem;"> */}
+              <div class="card-body">
+              <img className="row-image"src={Partner} />
+                <h3 class="card-title">Partner With Us</h3>
+                <p class="card-text">Help those struggling with suicidal thoughts find a purpose and second chance at life. </p>
+                </div>
+              </Col>    
+            </Row>
 
-      <CardDeck>
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Event} />
-          <Card.Body>
-            <Card.Title><h3>Host an Event</h3></Card.Title>
-            <Card.Text>
-              Spread the word about suicide prevention and help grow community
-              awareness.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Partner} />
-          <Card.Body>
-            <Card.Title><h3>Partner with Us</h3></Card.Title>
-            <Card.Text>
-              Help individuals struggling with suicidal thoughts find a purpose
-              and second chance at life.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-
-        <Card style={{ width: "18rem" }}>
-          <Card.Img variant="top" src={Donate} />
-          <Card.Body>
-            <Card.Title><h3>Donate</h3></Card.Title>
-            <Card.Text>
-              No contribution is too small. Donations support events and
-              educational materials.
-            </Card.Text>
-          </Card.Body>
-        </Card>
-      </CardDeck>
-    </section>
+            <p className="d-flex justify-content-center"><a className="text-info" href="/#contact-form">Contact Us</a></p>
+      </div>
+    </div>
   );
 }
 
 function GetInvolved() {
   return (
-    <div id="GetInvolvedPage">
+    <div>
+      < GetInvolvedImage />
       <GetInvolvedIntro />
-      <GetInvolvedWhatIf />
       <GetInvolvedWaysTo />
     </div>
   );

@@ -10,7 +10,8 @@ export default function ContactUs() {
   function sendEmail(e) {
     e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_3v8s4zn', e.target, 'user_yomr6EhHGuD4HFwjIEobr')
+    //arguments('serviceId', 'templateId", 'userID')
+    emailjs.sendForm('Pammy Boyd', 'template_btpv@vb', e.target, 'user_5a4NESBHOs5w2ZSh96bhJ')
       .then((result) => {
           console.log(result.text);
       }, (error) => {
@@ -20,13 +21,15 @@ export default function ContactUs() {
   }
 
   return (
-    <div className="my-5 py-5" style={{backgroundImage: '../../assets/oilseed.jpg'}}>
-    <Card  border="dark" style={{ width: '40rem', margin: '2rem auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
-        <Card.Header>Contact Us</Card.Header>
+    <div className='container mb-4'>
+    <Card  border="dark" style={{ width: '90%', margin: 'auto', fontSize: '1rem', backgroundColor:'#343a40', color:'white'}}>
         <Card.Body>
-            <Form className="contact-form" onSubmit={sendEmail}>
+            <Form id="contact-form" onSubmit={sendEmail}>
 
-                <Form.Group controlId="formBasicEmail">
+                <Form.Group controlId="formBasicEmail"> <Form.Text style={{fontSize:'1.25rem'}}>
+                    Contact Us
+                    </Form.Text>
+
                     <Form.Text className="text-muted" style={{fontSize:'1rem'}}>
                     Please fill in all inputs with the required information.
                     </Form.Text>
@@ -61,9 +64,7 @@ export default function ContactUs() {
                 </Button>
         </Form>
 
-            <Card.Text>
-                Once message is sent, input fields will reset.
-            </Card.Text>
+
         </Card.Body>
     </Card>
     </div>
